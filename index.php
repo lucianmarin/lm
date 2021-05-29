@@ -1,9 +1,3 @@
-<?php
-function age() {
-	$timediff = time() - strtotime("1986-11-26");
-	return round($timediff / (60 * 60 * 24 * 365.25), 1);
-}
-?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -28,7 +22,7 @@ function age() {
 						<strong>Lucian Marin</strong>
 					</a>
 				</p>
-				<p><?= age(); ?> years old Python developer</p>
+				<p>Python Developer</p>
 			</div>
 		</div>
 	</div>
@@ -59,7 +53,7 @@ function age() {
 		<div class="center">
 			<p class="meta">Android</p>
 			<div class="product">
-				<img src="/static/droid.png" width="40" height="40">
+				<img src="/static/subdroid.png" width="40" height="40">
 				<p>
 					<a href="https://play.google.com/store/apps/details?id=com.lucianmarin.sub">
 						<strong>Subreply</strong>
@@ -107,7 +101,7 @@ function age() {
 			<div class="links">
 				<p>Gmail</p>
 				<p>marin.lucian</p>
-				<p>Phone</p>
+				<p>Text</p>
 				<p>+40 726 210 589</p>
 			</div>
 		</div>
