@@ -1,0 +1,18 @@
+{
+	"lang": "en",
+	"name": "Lucian Marin",
+	"short_name": "Lucian Marin",
+	"description": "Python Developer",
+	"icons": [
+		{
+			"src": "/static/plus.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"purpose": "any maskable"
+		}
+	],
+	"start_url": "/",
+	"display": "standalone",
+	"orientation": "portrait",
+	"status": "ok"
+}
