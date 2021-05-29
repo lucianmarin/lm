@@ -1,3 +1,9 @@
+<?php
+function age() {
+	$timediff = time() - strtotime("1986-11-26");
+	return round($timediff / (60 * 60 * 24 * 365.25), 1);
+}
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,9 +12,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
 	<meta name="description" content="Python developer with Django and Pytest experience. Automation engineer and designer of human-computer interfaces.">
 	<meta name="author" content="Lucian Marin">
-	<link rel="preload" href="/route159/bold.woff2" as="font">
-	<link rel="preload" href="/route159/regular.woff2" as="font">
-	<link rel="preload" href="/static/style.css?v=1" as="style">
 	<link rel="apple-touch-icon" type="image/png" href="/static/plus.png">
 	<link rel="icon" sizes="192x192" type="image/png" href="/static/plus.png">
 	<link rel="manifest" type="application/json" href="/static/manifest.json">
@@ -25,7 +28,7 @@
 						<strong>Lucian Marin</strong>
 					</a>
 				</p>
-				<p>Python Developer</p>
+				<p><?= age(); ?> years old Python developer</p>
 			</div>
 		</div>
 	</div>
@@ -132,7 +135,7 @@
 		<div class="center">
 			<p class="meta">Resume</p>
 			<div class="links">
-				<p>2020&ndash;2021</p>
+				<p>2020&ndash;<?= date("Y"); ?></p>
 				<p>Verifone</p>
 				<p>2018&ndash;2019</p>
 				<p>Secureworks</p>
