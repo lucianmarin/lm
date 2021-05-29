@@ -4,7 +4,7 @@
 	<title>Lucian Marin</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
-	<meta name="description" content="Python developer with Django and Pytest experience. Automation engineer and designer of human-computer interfaces.">
+	<meta name="description" content="Automation engineer and designer of human-computer interfaces.">
 	<meta name="author" content="Lucian Marin">
 	<link rel="apple-touch-icon" type="image/png" href="/static/plus.png">
 	<link rel="icon" sizes="192x192" type="image/png" href="/static/plus.png">
@@ -110,14 +110,12 @@
 		<div class="center">
 			<p class="meta">Social</p>
 			<div class="links">
-				<p><a href="http://lucianmarin.github.io/">Blog</a></p>
 				<p><a href="https://dribbble.com/lucianmarin">Dribbble</a></p>
 				<p><a href="https://github.com/lucianmarin">GitHub</a></p>
 				<p><a href="https://instagram.com/lucianmarin/">Instagram</a></p>
 				<p><a href="https://ro.linkedin.com/in/marinlucian">LinkedIn</a></p>
 				<p><a href="https://www.paypal.me/lucianmarin">PayPal</a></p>
 				<p><a href="https://play.google.com/store/apps/developer?id=Lucian+Marin">Play Store</a></p>
-				<p><a href="https://pinterest.com/lucianmarin">Pinterest</a></p>
 				<p><a href="https://soundcloud.com/lucianmarin">SoundCloud</a></p>
 				<p><a href="https://open.spotify.com/user/lucianmarin">Spotify</a></p>
 				<p><a href="https://twitter.com/lucianmarin">Twitter</a></p>
