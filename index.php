@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
 	<meta name="description" content="Automation engineer and designer of human-computer interfaces.">
 	<meta name="author" content="Lucian Marin">
+	<link rel="alternate" type="application/rss+xml" title="Lucian Marin" href="https://feeds.feedburner.com/lucianmarin">
 	<link rel="apple-touch-icon" type="image/png" href="/static/plus.png">
 	<link rel="icon" sizes="192x192" type="image/png" href="/static/plus.png">
 	<link rel="manifest" type="application/json" href="/static/manifest.json">
@@ -115,6 +116,8 @@
 				<p><a href="https://instagram.com/lucianmarin/">Instagram</a></p>
 				<p><a href="https://ro.linkedin.com/in/marinlucian">LinkedIn</a></p>
 				<p><a href="https://www.paypal.me/lucianmarin">PayPal</a></p>
+				<p><a href="https://pinboard.in/u:lucianmarin">Pinboard</a></p>
+				<p><a href="https://www.pinterest.com/lucianmarin/">Pinterest</a></p>
 				<p><a href="https://play.google.com/store/apps/developer?id=Lucian+Marin">Play Store</a></p>
 				<p><a href="https://soundcloud.com/lucianmarin">SoundCloud</a></p>
 				<p><a href="https://open.spotify.com/user/lucianmarin">Spotify</a></p>
