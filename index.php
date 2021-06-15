@@ -17,7 +17,7 @@
 		<div class="center">
 			<p class="meta">Hello</p>
 			<div class="product">
-				<img src="/static/lm.jpg" width="40" height="40">
+				<img src="/static/face.jpg" width="40" height="40">
 				<p>
 					<a href="/">
 						<strong>Lucian Marin</strong>
