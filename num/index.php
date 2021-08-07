@@ -9,7 +9,7 @@
         <link rel="icon" sizes="192x192" type="image/png" href="static/numeric.png">
         <script type="text/javascript" src="static/math.js" async defer></script>
         <script type="text/javascript" src="static/script.js?v=1" async defer></script>
-        <link rel="stylesheet" type="text/css" href="static/style.css?v=2">
+        <link rel="stylesheet" type="text/css" href="static/style.css?v=3">
     </head>
     <body>
         <div class="buttons">

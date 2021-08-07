@@ -45,6 +45,7 @@ textarea {
 	font-family: "Route 159", sans-serif;
 	font-size: 14.5px;
 	line-height: 25px;
+	overflow: hidden;
 	padding: 0 15px;
 	resize: none;
 	width: calc(100% - 30px);
