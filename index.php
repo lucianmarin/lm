@@ -31,6 +31,15 @@
 		<div class="center">
 			<p class="meta">Web</p>
 			<div class="product">
+				<img src="/static/num.png" width="40" height="40">
+				<p>
+					<a href="/num/">
+						<strong>Numeric</strong>
+					</a>
+				</p>
+				<p>Multiline math calculator.</p>
+			</div>
+			<div class="product">
 				<img src="/static/subreply.png" width="40" height="40">
 				<p>
 					<a href="https://subreply.com/">
@@ -118,9 +127,7 @@
 				<p><a href="https://www.paypal.me/lucianmarin">PayPal</a></p>
 				<p><a href="https://pinboard.in/u:lucianmarin">Pinboard</a></p>
 				<p><a href="https://www.pinterest.com/lucianmarin/">Pinterest</a></p>
-				<p><a href="https://play.google.com/store/apps/developer?id=Lucian+Marin">Play Store</a></p>
 				<p><a href="https://soundcloud.com/lucianmarin">SoundCloud</a></p>
-				<p><a href="https://open.spotify.com/user/lucianmarin">Spotify</a></p>
 				<p><a href="https://twitter.com/lucianmarin">Twitter</a></p>
 				<p><a href="https://t.me/lucianmarin">Telegram</a></p>
 			</div>
