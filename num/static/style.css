@@ -64,20 +64,21 @@ textarea:focus { outline: 0 none; }
 #response p:last-child { border-bottom: 0 none; }
 
 .buttons {
-	bottom: 15px;
+	bottom: 10px;
 	position: absolute;
 	right: 15px;
-	line-height: 24px;
+	font-size: 13.5px;
+	line-height: 20px;
 }
 
 .buttons a {
 	background-color: var(--black);
-	border-radius: 12px;
+	border-radius: 10px;
 	color: var(--white);
 	display: block;
-	height: 24px;
+	height: 20px;
 	text-align: center;
-	width: 24px;
+	width: 20px;
 }
 
 @font-face {
