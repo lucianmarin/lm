@@ -1,16 +1,16 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<title>Lucian Marin</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
-	<meta name="description" content="Automation engineer and designer of human-computer interfaces.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Python developer and all things design.">
 	<meta name="author" content="Lucian Marin">
-	<link rel="alternate" type="application/rss+xml" title="Lucian Marin" href="https://feeds.feedburner.com/lucianmarin">
+	<title>Lucian Marin</title>
 	<link rel="apple-touch-icon" type="image/png" href="/static/plus.png">
 	<link rel="icon" sizes="192x192" type="image/png" href="/static/plus.png">
 	<link rel="manifest" type="application/json" href="/static/manifest.json">
 	<link rel="stylesheet" type="text/css" href="/static/style.css?v=1">
+	<link rel="alternate" type="application/rss+xml" title="Lucian Marin" href="https://feeds.feedburner.com/lucianmarin">
 </head>
 <body>
 	<div class="trans">
@@ -125,9 +125,9 @@
 				<p><a href="https://instagram.com/lucianmarin/">Instagram</a></p>
 				<p><a href="https://ro.linkedin.com/in/marinlucian">LinkedIn</a></p>
 				<p><a href="https://www.paypal.me/lucianmarin">PayPal</a></p>
-				<p><a href="https://pinboard.in/u:lucianmarin">Pinboard</a></p>
 				<p><a href="https://www.pinterest.com/lucianmarin/">Pinterest</a></p>
 				<p><a href="https://soundcloud.com/lucianmarin">SoundCloud</a></p>
+				<p><a href="https://open.spotify.com/user/lucianmarin">Spotify</a></p>
 				<p><a href="https://twitter.com/lucianmarin">Twitter</a></p>
 				<p><a href="https://t.me/lucianmarin">Telegram</a></p>
 			</div>
