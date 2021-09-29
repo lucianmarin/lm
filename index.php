@@ -9,7 +9,7 @@
 	<link rel="apple-touch-icon" type="image/png" href="/static/plus.png">
 	<link rel="icon" sizes="192x192" type="image/png" href="/static/plus.png">
 	<link rel="manifest" type="application/json" href="/static/manifest.json">
-	<link rel="stylesheet" type="text/css" href="/static/style.css?v=1">
+	<link rel="stylesheet" type="text/css" href="/static/style.css?v=2">
 	<link rel="alternate" type="application/rss+xml" title="Lucian Marin" href="https://feeds.feedburner.com/lucianmarin">
 </head>
 <body>
@@ -17,7 +17,7 @@
 		<div class="center">
 			<p class="meta">Hello</p>
 			<div class="product">
-				<img src="/static/face.jpg" width="40" height="40">
+				<img src="/static/lm.png" width="40" height="40">
 				<p>
 					<a href="/">
 						<strong>Lucian Marin</strong>
@@ -63,7 +63,7 @@
 		<div class="center">
 			<p class="meta">Android</p>
 			<div class="product">
-				<img src="/static/subdroid.png" width="40" height="40">
+				<img src="/static/sub.png" width="40" height="40">
 				<p>
 					<a href="https://play.google.com/store/apps/details?id=com.lucianmarin.sub">
 						<strong>Subreply</strong>
