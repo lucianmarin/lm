@@ -69,7 +69,7 @@
 						<strong>Subreply</strong>
 					</a>
 				</p>
-				<p>Pull to refresh and dark mode.</p>
+				<p>Lightweight app for your phone.</p>
 			</div>
 		</div>
 	</div>
