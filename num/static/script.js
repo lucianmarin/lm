@@ -1,6 +1,6 @@
 function load() {
-    element = document.getElementById("id_content");
-    if (typeof(Storage) !== "undefined") {
+    element = document.getElementById("content");
+    if (localStorage.content) {
         element.value = localStorage.content;
         eval(element);
     }
@@ -24,7 +24,5 @@ function eval(element) {
     response.innerHTML = "<p>" + resultLines.join('</p>\n<p>') + "</p>";
     element.style.height = 'auto';
     element.style.height = element.scrollHeight + 'px';
-    if (typeof(Storage) !== "undefined") {
-        localStorage.setItem("content", content);
-    }
+    localStorage.setItem("content", content);
 }

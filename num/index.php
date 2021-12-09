@@ -16,7 +16,7 @@
         <a target="_blank" href="https://mathjs.org/docs/expressions/syntax.html">?</a>
     </div>
     <div class="left">
-        <textarea id="id_content" rows=1 cols=80 autofocus
+        <textarea id="content" rows=1 cols=80 autofocus
             oninput="eval(this)" placeholder="Calculate"></textarea>
     </div>
     <div class="right">
