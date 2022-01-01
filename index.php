@@ -122,10 +122,10 @@
 			<div class="links">
 				<p><a href="https://dribbble.com/lucianmarin">Dribbble</a></p>
 				<p><a href="https://github.com/lucianmarin">GitHub</a></p>
-				<p><a href="https://instagram.com/lucianmarin/">Instagram</a></p>
+				<p><a href="https://instagram.com/lucianmarin">Instagram</a></p>
 				<p><a href="https://ro.linkedin.com/in/marinlucian">LinkedIn</a></p>
-				<p><a href="https://www.paypal.me/lucianmarin">PayPal</a></p>
-				<p><a href="https://www.pinterest.com/lucianmarin/">Pinterest</a></p>
+				<p><a href="https://paypal.me/lucianmarin">PayPal</a></p>
+				<p><a href="https://pinterest.com/lucianmarin">Pinterest</a></p>
 				<p><a href="https://soundcloud.com/lucianmarin">SoundCloud</a></p>
 				<p><a href="https://open.spotify.com/user/lucianmarin">Spotify</a></p>
 				<p><a href="https://twitter.com/lucianmarin">Twitter</a></p>
@@ -141,8 +141,6 @@
 				<p>Verifone</p>
 				<p>2018&ndash;2019</p>
 				<p>Secureworks</p>
-				<p>2017</p>
-				<p>Romlogic</p>
 				<p>2015&ndash;2017</p>
 				<p>ChargeAds</p>
 				<p>2012&ndash;2013</p>
