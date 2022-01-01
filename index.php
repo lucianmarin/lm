@@ -145,10 +145,8 @@
 				<p>ChargeAds</p>
 				<p>2012&ndash;2013</p>
 				<p>DevLabel</p>
-				<p>2011</p>
-				<p>SourceFabric</p>
-				<p>2008</p>
-				<p>Sparktech</p>
+				<p>2008&ndash;2011</p>
+				<p>Freelance</p>
 				<p>2006&ndash;2007</p>
 				<p>Firedive</p>
 			</div>
