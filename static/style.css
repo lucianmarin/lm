@@ -42,7 +42,7 @@ a {
 
 .center {
 	margin: 0 auto;
-	max-width: 290px;
+	max-width: 300px;
 }
 
 .alt, .trans { overflow: hidden; }
@@ -51,11 +51,10 @@ a {
 
 .links {
 	margin-bottom: 10px;
+	margin-left: 50px;
 	overflow: hidden;
 }
-	.links p { width: 145px; }
-	.links p:nth-child(odd) { float: left; }
-	.links p:nth-child(even) { float: right; }
+	.links p { float: left; width: 50%; }
 
 .product {
 	height: 40px;
