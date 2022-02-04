@@ -109,7 +109,7 @@
 		<div class="center">
 			<p class="meta">Contact</p>
 			<div class="links">
-				<img src="/static/mail.png" width="25" height="25">
+				<img src="/static/talk.png" width="25" height="25">
 				<p>Gmail</p>
 				<p>marin.lucian</p>
 				<p>Text</p>
