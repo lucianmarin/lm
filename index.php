@@ -9,7 +9,7 @@
 	<link rel="apple-touch-icon" type="image/png" href="/static/plus.png">
 	<link rel="icon" sizes="192x192" type="image/png" href="/static/plus.png">
 	<link rel="manifest" type="application/json" href="/static/manifest.json">
-	<link rel="stylesheet" type="text/css" href="/static/style.css?v=6">
+	<link rel="stylesheet" type="text/css" href="/static/style.css?v=7">
 	<link rel="alternate" type="application/rss+xml" title="Lucian Marin" href="https://feeds.feedburner.com/lucianmarin">
 </head>
 <body>
@@ -109,7 +109,7 @@
 		<div class="center">
 			<p class="meta">Contact</p>
 			<div class="links">
-				<img src="/static/talk.png" width="25" height="25">
+				<img src="/static/talk.png" width="24" height="24">
 				<p>Gmail</p>
 				<p>marin.lucian</p>
 				<p>Text</p>
@@ -121,7 +121,7 @@
 		<div class="center">
 			<p class="meta">Social</p>
 			<div class="links">
-				<img src="/static/like.png" width="25" height="25">
+				<img src="/static/like.png" width="24" height="24">
 				<p><a href="https://dribbble.com/lucianmarin">Dribbble</a></p>
 				<p><a href="https://github.com/lucianmarin">GitHub</a></p>
 				<p><a href="https://instagram.com/lucianmarin">Instagram</a></p>
@@ -139,7 +139,7 @@
 		<div class="center">
 			<p class="meta">Resume</p>
 			<div class="links">
-				<img src="/static/id.png" width="25" height="25">
+				<img src="/static/id.png" width="24" height="24">
 				<p>2020&ndash;<?= date("Y"); ?></p>
 				<p>Verifone</p>
 				<p>2018&ndash;2019</p>
