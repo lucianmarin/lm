@@ -109,7 +109,7 @@
 		<div class="center">
 			<p class="meta">Contact</p>
 			<div class="links">
-				<img src="/static/chat.png" width="25" height="25">
+				<img src="/static/mail.png" width="25" height="25">
 				<p>Gmail</p>
 				<p>marin.lucian</p>
 				<p>Text</p>
@@ -121,7 +121,7 @@
 		<div class="center">
 			<p class="meta">Social</p>
 			<div class="links">
-				<img src="/static/share.png" width="25" height="25">
+				<img src="/static/like.png" width="25" height="25">
 				<p><a href="https://dribbble.com/lucianmarin">Dribbble</a></p>
 				<p><a href="https://github.com/lucianmarin">GitHub</a></p>
 				<p><a href="https://instagram.com/lucianmarin">Instagram</a></p>
