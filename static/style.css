@@ -1,25 +1,21 @@
 html {
-	--silver: #808080;
 	--white: #fff;
-	--black: #000;
 	--whitesmoke: #f0f0f0;
+	--silver: #808080;
+	--black: #000;
 }
 
 @media (prefers-color-scheme: dark) {
 	html {
 		--white: #000;
-		--black: #fff;
 		--whitesmoke: #202020;
+		--black: #fff;
 	}
 }
 
-* {
-	margin: 0;
-	padding: 0;
-}
+* { margin: 0; padding: 0; }
 
 body {
-	background-color: var(--white);
 	cursor: default;
 	color: var(--black);
 	font-family: "Route 159", sans-serif;
@@ -27,10 +23,7 @@ body {
 	line-height: 20px;
 }
 
-img {
-	border-radius: 10px;
-	display: block;
-}
+img { display: block; float: left; margin-left: -50px; }
 
 a {
 	color: var(--black);
@@ -40,21 +33,23 @@ a {
 }
 	a:hover { color: var(--silver); }
 
-.center {
-	margin: 0 auto;
-	max-width: 300px;
-}
+.center { margin: 0 auto; max-width: 300px; }
 
 .alt, .trans { overflow: hidden; }
 
 .alt { background-color: var(--whitesmoke); }
+	.alt img { background-color: var(--white); }
+
+.trans { background-color: var(--white); }
+	.trans img { background-color: var(--whitesmoke); }
 
 .links {
 	margin-bottom: 10px;
-	margin-left: 50px;
+	padding-left: 50px;
 	overflow: hidden;
 }
 	.links p { float: left; width: 50%; }
+	.links img { border-radius: 5px; margin-top: 5px; }
 
 .product {
 	height: 40px;
@@ -62,11 +57,7 @@ a {
 	margin-bottom: 10px;
 	padding-left: 50px;
 }
-	.product img {
-		background-color: var(--whitesmoke);
-		float: left;
-		margin-left: -50px;
-	}
+	.product img { border-radius: 8px; }
 
 .meta {
 	font-size: 10px;

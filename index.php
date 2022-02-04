@@ -109,6 +109,7 @@
 		<div class="center">
 			<p class="meta">Contact</p>
 			<div class="links">
+				<img src="/static/chat.png" width="25" height="25">
 				<p>Gmail</p>
 				<p>marin.lucian</p>
 				<p>Text</p>
@@ -120,6 +121,7 @@
 		<div class="center">
 			<p class="meta">Social</p>
 			<div class="links">
+				<img src="/static/share.png" width="25" height="25">
 				<p><a href="https://dribbble.com/lucianmarin">Dribbble</a></p>
 				<p><a href="https://github.com/lucianmarin">GitHub</a></p>
 				<p><a href="https://instagram.com/lucianmarin">Instagram</a></p>
@@ -137,6 +139,7 @@
 		<div class="center">
 			<p class="meta">Resume</p>
 			<div class="links">
+				<img src="/static/id.png" width="25" height="25">
 				<p>2020&ndash;<?= date("Y"); ?></p>
 				<p>Verifone</p>
 				<p>2018&ndash;2019</p>
