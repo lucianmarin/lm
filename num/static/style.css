@@ -1,5 +1,3 @@
-* { margin: 0; padding: 0; }
-
 html {
 	--black: #000;
 	--silver: #808080;
@@ -15,7 +13,10 @@ html {
 	}
 }
 
+* { margin: 0; padding: 0; }
+
 body {
+	background-color: var(--white);
 	color: var(--black);
 	font-family: "Route 159", sans-serif;
 	font-size: 14.5px;
@@ -24,9 +25,9 @@ body {
 
 a { text-decoration: none; }
 
-.container { display: grid; grid-template-columns: 50% 50%; }
+.container { display: grid; grid-template-columns: 56.25% 43.75%; }
 
-.left, .right { padding: 10px 0; height: 100vh; }
+.left, .right { padding: 10px 0; height: calc(100vh - 20px); }
 
 .left { background-color: var(--white); }
 .right { background-color: var(--whitesmoke); }

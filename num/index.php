@@ -9,7 +9,7 @@
 	<link rel="manifest" type="application/json" href="static/manifest.json">
     <script type="text/javascript" src="static/math.js"></script>
     <script type="text/javascript" src="static/script.js?v=2"></script>
-    <link rel="stylesheet" type="text/css" href="static/style.css?v=5">
+    <link rel="stylesheet" type="text/css" href="static/style.css?v=6">
 </head>
 <body onload="load()">
     <div class="help">

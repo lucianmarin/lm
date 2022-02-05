@@ -16,6 +16,7 @@ html {
 * { margin: 0; padding: 0; }
 
 body {
+	background-color: var(--white);
 	cursor: default;
 	color: var(--black);
 	font-family: "Route 159", sans-serif;
