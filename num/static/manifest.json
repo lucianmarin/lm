@@ -1,0 +1,18 @@
+{
+	"lang": "en",
+	"name": "Numeric",
+	"short_name": "Num",
+	"description": "Multiline math calculator",
+	"icons": [
+		{
+			"src": "/num/static/num.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"purpose": "any maskable"
+		}
+	],
+	"start_url": "/num/",
+	"display": "standalone",
+	"orientation": "portrait",
+	"status": "ok"
+}
