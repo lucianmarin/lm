@@ -1,15 +1,16 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Numeric</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Multiline math calculator">
+    <title>Numeric</title>
     <link rel="apple-touch-icon" type="image/png" href="static/num.png">
     <link rel="icon" sizes="192x192" type="image/png" href="static/num.png">
 	<link rel="manifest" type="application/json" href="static/manifest.json">
+    <link rel="stylesheet" type="text/css" href="static/style.css?v=6">
     <script type="text/javascript" src="static/math.js"></script>
     <script type="text/javascript" src="static/script.js?v=2"></script>
-    <link rel="stylesheet" type="text/css" href="static/style.css?v=6">
 </head>
 <body onload="load()">
     <div class="help">
