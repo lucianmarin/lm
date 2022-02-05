@@ -1,21 +1,18 @@
+* { margin: 0; padding: 0; }
+
 html {
+	--black: #000;
 	--silver: #808080;
 	--white: #fff;
-	--black: #000;
 	--whitesmoke: #f0f0f0;
 }
 
 @media (prefers-color-scheme: dark) {
 	html {
-		--white: #000;
 		--black: #fff;
+		--white: #000;
 		--whitesmoke: #202020;
 	}
-}
-
-* {
-	margin: 0;
-	padding: 0;
 }
 
 body {
@@ -27,19 +24,15 @@ body {
 
 a { text-decoration: none; }
 
-.left, .right {
-	float: left;
-	height: calc(100vh - 20px);
-	padding: 10px 0;
-	width: 50%;
-}
+.container { display: grid; grid-template-columns: 50% 50%; }
 
-.left { background-color: var(--whitesmoke); }
+.left, .right { padding: 10px 0; height: 100vh; }
 
-.right { background-color: var(--white); }
+.left { background-color: var(--white); }
+.right { background-color: var(--whitesmoke); }
 
 textarea {
-	background-color: var(--whitesmoke);;
+	background-color: var(--white);;
 	border: 0 none;
 	color: var(--black);
 	font-family: "Route 159", sans-serif;
@@ -50,36 +43,33 @@ textarea {
 	resize: none;
 	width: calc(100% - 30px);
 }
-
-textarea:focus { outline: 0 none; }
+	textarea:focus { outline: 0 none; }
 
 #response p {
-	border-bottom: var(--whitesmoke) 1px solid;
+	border-bottom: var(--white) 1px solid;
 	overflow: hidden;
 	padding: 0 15px;
 	text-overflow: ellipsis;
 	white-space: nowrap;
 }
+	#response p:last-child { border-bottom: 0 none; }
 
-#response p:last-child { border-bottom: 0 none; }
-
-.buttons {
+.help {
 	bottom: 10px;
 	position: absolute;
 	right: 15px;
 	font-size: 13.5px;
 	line-height: 20px;
 }
-
-.buttons a {
-	background-color: var(--black);
-	border-radius: 10px;
-	color: var(--white);
-	display: block;
-	height: 20px;
-	text-align: center;
-	width: 20px;
-}
+	.help a {
+		background-color: var(--black);
+		border-radius: 10px;
+		color: var(--white);
+		display: block;
+		height: 20px;
+		text-align: center;
+		width: 20px;
+	}
 
 @font-face {
 	font-family: "Route 159";

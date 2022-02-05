@@ -9,18 +9,20 @@
     <link rel="icon" sizes="192x192" type="image/png" href="static/numeric.png">
     <script type="text/javascript" src="static/math.js"></script>
     <script type="text/javascript" src="static/script.js?v=2"></script>
-    <link rel="stylesheet" type="text/css" href="static/style.css?v=4">
+    <link rel="stylesheet" type="text/css" href="static/style.css?v=5">
 </head>
 <body onload="load()">
-    <div class="buttons">
+    <div class="help">
         <a target="_blank" href="https://mathjs.org/docs/expressions/syntax.html">?</a>
     </div>
-    <div class="left">
-        <textarea id="content" rows=1 cols=80 autofocus
-            oninput="eval(this)" placeholder="Calculate"></textarea>
-    </div>
-    <div class="right">
-        <div id="response"></div>
+    <div class="container">
+        <div class="left">
+            <textarea id="content" rows=1 cols=80 autofocus
+                oninput="eval(this)" placeholder="Calculate"></textarea>
+        </div>
+        <div class="right">
+            <div id="response"></div>
+        </div>
     </div>
 </body>
 </html>
