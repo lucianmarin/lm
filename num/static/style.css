@@ -1,22 +1,24 @@
 html {
-	--black: #000;
-	--silver: #808080;
 	--white: #fff;
 	--whitesmoke: #f0f0f0;
+	--gainsboro: #e0e0e0;
+	--silver: #808080;
+	--black: #000;
 }
 
 @media (prefers-color-scheme: dark) {
 	html {
-		--black: #fff;
 		--white: #000;
 		--whitesmoke: #202020;
+		--gainsboro: #303030;
+		--black: #fff;
 	}
 }
 
 * { margin: 0; padding: 0; }
 
 body {
-	background-color: var(--white);
+	background-color: var(--gainsboro);
 	color: var(--black);
 	font-family: "Route 159", sans-serif;
 	font-size: 14.5px;
@@ -47,7 +49,7 @@ textarea {
 	textarea:focus { outline: 0 none; }
 
 #response p {
-	border-bottom: var(--white) 1px solid;
+	border-bottom: var(--gainsboro) 1px solid;
 	overflow: hidden;
 	padding: 0 15px;
 	text-overflow: ellipsis;
