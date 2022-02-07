@@ -123,6 +123,7 @@
 			<div class="links">
 				<img src="/static/like.png" width="24" height="24">
 				<p><a href="https://dribbble.com/lucianmarin">Dribbble</a></p>
+				<p><a href="https://designspiration.com/lucianmarin">Designspiration</a></p>
 				<p><a href="https://github.com/lucianmarin">GitHub</a></p>
 				<p><a href="https://instagram.com/lucianmarin">Instagram</a></p>
 				<p><a href="https://ro.linkedin.com/in/marinlucian">LinkedIn</a></p>
@@ -132,6 +133,7 @@
 				<p><a href="https://open.spotify.com/user/lucianmarin">Spotify</a></p>
 				<p><a href="https://twitter.com/lucianmarin">Twitter</a></p>
 				<p><a href="https://t.me/lucianmarin">Telegram</a></p>
+				<p><a href="https://vsco.co/lucianmarin">VSCO</a></p>
 			</div>
 		</div>
 	</div>
