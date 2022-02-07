@@ -124,11 +124,11 @@
 				<img src="/static/like.png" width="24" height="24">
 				<p><a href="https://dribbble.com/lucianmarin">Dribbble</a></p>
 				<p><a href="https://designspiration.com/lucianmarin">Designspiration</a></p>
+				<p><a href="https://figma.com/@lucianmarin">Figma</a></p>
 				<p><a href="https://github.com/lucianmarin">GitHub</a></p>
 				<p><a href="https://instagram.com/lucianmarin">Instagram</a></p>
 				<p><a href="https://ro.linkedin.com/in/marinlucian">LinkedIn</a></p>
 				<p><a href="https://paypal.me/lucianmarin">PayPal</a></p>
-				<p><a href="https://pinterest.com/lucianmarin">Pinterest</a></p>
 				<p><a href="https://soundcloud.com/lucianmarin">SoundCloud</a></p>
 				<p><a href="https://open.spotify.com/user/lucianmarin">Spotify</a></p>
 				<p><a href="https://twitter.com/lucianmarin">Twitter</a></p>
