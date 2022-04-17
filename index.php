@@ -34,7 +34,7 @@
 				<img src="/static/num.png" width="40" height="40">
 				<p>
 					<a href="/num/">
-						<strong>Numeric</strong>
+						<strong>Num</strong>
 					</a>
 				</p>
 				<p>Multiline math calculator.</p>
@@ -47,15 +47,6 @@
 					</a>
 				</p>
 				<p>Tiny, but mighty social network.</p>
-			</div>
-			<div class="product">
-				<img src="/static/unfeeder.png" width="40" height="40">
-				<p>
-					<a href="https://unfeeder.com/">
-						<strong>Unfeeder</strong>
-					</a>
-				</p>
-				<p>Live and automated news feed.</p>
 			</div>
 		</div>
 	</div>
@@ -139,18 +130,18 @@
 		<div class="center">
 			<p class="meta">Resume</p>
 			<div class="links">
-				<p>2020&ndash;<?= date("Y"); ?></p>
+				<p>2020&ndash;2022</p>
 				<p>Verifone</p>
 				<p>2018&ndash;2019</p>
 				<p>Secureworks</p>
+				<p>2017</p>
+				<p>Romlogic</p>
 				<p>2015&ndash;2017</p>
 				<p>ChargeAds</p>
 				<p>2012&ndash;2013</p>
 				<p>DevLabel</p>
-				<p>2008&ndash;2011</p>
-				<p>Freelance</p>
-				<p>2006&ndash;2007</p>
-				<p>Firedive</p>
+				<p>2006&ndash;2011</p>
+				<p>Freelancer</p>
 			</div>
 		</div>
 	</div>
