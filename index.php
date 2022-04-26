@@ -40,7 +40,7 @@
 				<p>Coming soon.</p>
 			</div>
 			<div class="product">
-				<img src="/static/num.png" width="40" height="40">
+				<img src="/static/numb.png" width="40" height="40">
 				<p>
 					<a href="/num/">
 						<strong>Num</strong>
