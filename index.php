@@ -31,6 +31,15 @@
 		<div class="center">
 			<p class="meta">Web</p>
 			<div class="product">
+				<img src="/static/isocube.png" width="40" height="40">
+				<p>
+					<a href="https://subreply.com/news">
+						<strong>Isocubes</strong>
+					</a>
+				</p>
+				<p>Coming soon.</p>
+			</div>
+			<div class="product">
 				<img src="/static/num.png" width="40" height="40">
 				<p>
 					<a href="/num/">
