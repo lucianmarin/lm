@@ -4,7 +4,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Python developer and all things design.">
+	<meta name="keywords" content="subreply, development, python, design, macos, android">
 	<meta name="author" content="Lucian Marin">
+	<meta property="og:image" content="/static/plus.png">
+	<meta name="twitter:image" content="/static/plus.png">
 	<title>Lucian Marin</title>
 	<link rel="apple-touch-icon" type="image/png" href="/static/plus.png">
 	<link rel="icon" sizes="192x192" type="image/png" href="/static/plus.png">
