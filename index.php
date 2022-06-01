@@ -140,20 +140,20 @@
 	</div>
 	<div class="trans">
 		<div class="center">
-			<p class="meta">Resume</p>
+			<p class="meta">Code</p>
 			<div class="links">
-				<p>2020&ndash;2022</p>
-				<p>Verifone</p>
-				<p>2018&ndash;2019</p>
-				<p>Secureworks</p>
-				<p>2017</p>
-				<p>Romlogic</p>
-				<p>2015&ndash;2017</p>
-				<p>ChargeAds</p>
-				<p>2012&ndash;2013</p>
-				<p>DevLabel</p>
-				<p>2006&ndash;2011</p>
-				<p>Freelancer</p>
+				<p>Python</p>
+				<p><a href="https://github.com/lucianmarin/logparser">Logparser</a></p>
+				<p>Python</p>
+				<p><a href="https://github.com/lucianmarin/pybench">PyBench</a></p>
+				<p>PHP</p>
+				<p><a href="https://github.com/lucianmarin/pressdown">Pressdown</a></p>
+				<p>PHP</p>
+				<p><a href="https://github.com/lucianmarin/instanote">Instanote</a></p>
+				<p>PHP</p>
+				<p><a href="https://github.com/lucianmarin/instaphoto">Instaphoto</a></p>
+				<p>CSS</p>
+				<p><a href="https://github.com/lucianmarin/peculiar">Peculiar</a></p>
 			</div>
 		</div>
 	</div>
