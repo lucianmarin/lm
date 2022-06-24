@@ -34,15 +34,6 @@
 		<div class="center">
 			<p class="meta">Web</p>
 			<div class="product">
-				<img src="/static/isocube.png" width="40" height="40">
-				<p>
-					<a href="https://subreply.com/news">
-						<strong>Isocubes</strong>
-					</a>
-				</p>
-				<p>Coming soon.</p>
-			</div>
-			<div class="product">
 				<img src="/static/numb.png" width="40" height="40">
 				<p>
 					<a href="/num/">
@@ -58,7 +49,7 @@
 						<strong>Subreply</strong>
 					</a>
 				</p>
-				<p>Tiny, but mighty social network.</p>
+				<p>Built for speed. Engineered to last.</p>
 			</div>
 		</div>
 	</div>
@@ -72,7 +63,7 @@
 						<strong>Subreply</strong>
 					</a>
 				</p>
-				<p>Lightweight app for your phone.</p>
+				<p>Lightweightest social network.</p>
 			</div>
 		</div>
 	</div>
