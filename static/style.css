@@ -5,12 +5,18 @@ html {
 	--black: #000;
 }
 
+@media (prefers-color-scheme: light) {
+	.trans img { background-color: #f0f0f0; }
+}
+
 @media (prefers-color-scheme: dark) {
 	html {
 		--white: #000;
 		--whitesmoke: #202020;
 		--black: #fff;
 	}
+	.trans img { background-color: #dfdfdf; }
+	.product img {  filter: invert(1); }
 }
 
 * { margin: 0; padding: 0; }
@@ -39,10 +45,9 @@ a {
 .alt, .trans { overflow: hidden; }
 
 .alt { background-color: var(--whitesmoke); }
-	.alt img { background-color: var(--white); }
+	.alt img { background-color: #fff; }
 
 .trans { background-color: var(--white); }
-	.trans img { background-color: var(--whitesmoke); }
 
 .links { margin-bottom: 10px; overflow: hidden; }
 	.links p { float: left; width: 50%; }
