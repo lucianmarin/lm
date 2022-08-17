@@ -62,15 +62,15 @@ svg {
 	height: 40px;
 	margin-bottom: 10px;
 	overflow: hidden;
-	padding-left: 40px;
+	padding-left: 42px;
 }
 	.product svg {
 		background-color: var(--white);
-		border-radius: 15px;
+		border-radius: 8px;
 		float: left;
-		margin: 5px 0;
-		margin-left: -40px;
-		padding: 7px;
+		margin: 4px 0;
+		margin-left: -42px;
+		padding: 8px;
 	}
 
 .meta {
