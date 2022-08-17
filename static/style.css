@@ -40,6 +40,16 @@ a {
 }
 	a:hover { color: var(--silver); }
 
+svg {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+}
+    svg path {
+        fill: none;
+        stroke: var(--black);
+	}
+
 .center { margin: 0 auto; max-width: 300px; }
 
 .alt, .trans { overflow: hidden; }
@@ -60,6 +70,16 @@ a {
 	padding-left: 50px;
 }
 	.product img { border-radius: 10px; }
+	.product svg {
+		background-color: var(--white);
+		padding: 8px;
+		border-radius: 10px;
+		float: left;
+		margin-left: -50px;
+	}
+	.product .purple {
+		background-color: var(--whitesmoke);
+	}
 
 .meta {
 	font-size: 10px;
