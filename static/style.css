@@ -5,18 +5,12 @@ html {
 	--black: #000;
 }
 
-@media (prefers-color-scheme: light) {
-	.trans img { background-color: #f0f0f0; }
-}
-
 @media (prefers-color-scheme: dark) {
 	html {
 		--white: #000;
 		--whitesmoke: #202020;
 		--black: #fff;
 	}
-	.trans img { background-color: #dfdfdf; }
-	.product img {  filter: invert(1); }
 }
 
 * { margin: 0; padding: 0; }
@@ -30,8 +24,6 @@ body {
 	line-height: 20px;
 }
 
-img { display: block; float: left; margin-left: -50px; }
-
 a {
 	color: var(--black);
 	cursor: pointer;
@@ -39,6 +31,10 @@ a {
 	transition: color 0.2s;
 }
 	a:hover { color: var(--silver); }
+
+sup {
+	line-height: 0; margin-left: 2px; color: var(--silver); font-size: 10px;
+}
 
 svg {
     stroke-linecap: round;
@@ -55,30 +51,26 @@ svg {
 .alt, .trans { overflow: hidden; }
 
 .alt { background-color: var(--whitesmoke); }
-	.alt img { background-color: #fff; }
 
 .trans { background-color: var(--white); }
+	.trans .product svg { background-color: var(--whitesmoke); }
 
 .links { margin-bottom: 10px; overflow: hidden; }
 	.links p { float: left; width: 50%; }
-	.links img { border-radius: 6px; }
 
 .product {
 	height: 40px;
-	overflow: hidden;
 	margin-bottom: 10px;
-	padding-left: 50px;
+	overflow: hidden;
+	padding-left: 40px;
 }
-	.product img { border-radius: 10px; }
 	.product svg {
 		background-color: var(--white);
-		padding: 8px;
-		border-radius: 10px;
+		border-radius: 15px;
 		float: left;
-		margin-left: -50px;
-	}
-	.product .purple {
-		background-color: var(--whitesmoke);
+		margin: 5px 0;
+		margin-left: -40px;
+		padding: 7px;
 	}
 
 .meta {
