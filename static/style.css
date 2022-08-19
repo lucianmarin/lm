@@ -1,16 +1,18 @@
 html {
+	--tiny: 11px;
 	--white: #fff;
 	--whitesmoke: #f0f0f0;
+	--gainsboro: #e0e0e0;
 	--gray: #808080;
 	--silver: #c0c0c0;
 	--black: #000;
-	--tiny: 11px;
 }
 
 @media (prefers-color-scheme: dark) {
 	html {
 		--white: #000;
 		--whitesmoke: #202020;
+		--gainsboro: #303030;
 		--silver: #404040;
 		--black: #fff;
 	}
@@ -33,7 +35,7 @@ a {
 	text-decoration: none;
 	transition: color 0.2s;
 }
-	a:hover { color: var(--gray); }
+a:hover { color: var(--gray); }
 
 sup {
 	color: var(--gray);
@@ -47,7 +49,7 @@ svg {
     stroke-linejoin: round;
     stroke-width: 2;
 }
-    svg path { fill: none; stroke: var(--black); }
+svg path { fill: none; stroke: var(--black); }
 
 .center { margin: 0 auto; max-width: 300px; }
 
@@ -56,26 +58,26 @@ svg {
 .alt { background-color: var(--whitesmoke); }
 
 .trans { background-color: var(--white); }
-	.trans .product svg { background-color: var(--whitesmoke); }
-	.trans:first-child { padding-top: 10px; }
+.trans:first-child { padding-top: 10px; }
 
 .links { margin-bottom: 10px; overflow: hidden; }
-	.links p { float: left; width: 50%; }
+.links p { float: left; width: 50%; }
 
 .product {
 	height: 40px;
 	margin-bottom: 10px;
 	overflow: hidden;
-	padding-left: 42px;
+	padding-left: 46px;
 }
-	.product svg {
-		background-color: var(--white);
-		border-radius: 8px;
-		float: left;
-		margin: 4px 0;
-		margin-left: -42px;
-		padding: 8px;
-	}
+.product svg {
+	background-color: var(--white);
+	border: var(--gainsboro) 1px solid;
+	border-radius: 9px;
+	float: left;
+	margin: 2px 0;
+	margin-left: -46px;
+	padding: 9px;
+}
 
 .meta {
 	color: var(--gray);
