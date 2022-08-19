@@ -5,6 +5,6 @@ deployment:
     - /bin/rm -rd $DEPLOYPATH/*
     - /bin/rm -f $DEPLOYPATH/*.php
     - /bin/cp -R num $DEPLOYPATH
-    - /bin/cp -R route159 $DEPLOYPATH
+    - /bin/cp -R vegur $DEPLOYPATH
     - /bin/cp -R static $DEPLOYPATH
     - /bin/cp index.php $DEPLOYPATH
