@@ -72,7 +72,7 @@
 	</div>
 	<div class="trans">
 		<div class="center">
-			<p class="meta">Android</p>
+			<p class="meta">Android Apps</p>
 			<div class="product">
 				<svg viewBox="0 0 24 24" width="16" height="16">
 					<path d="M13 10V3L4 14h7v7l9-11h-7z" />
