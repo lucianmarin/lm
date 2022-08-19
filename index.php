@@ -12,13 +12,12 @@
 	<link rel="apple-touch-icon" type="image/png" href="/static/plus.png">
 	<link rel="icon" sizes="192x192" type="image/png" href="/static/plus.png">
 	<link rel="manifest" type="application/json" href="/static/manifest.json">
-	<link rel="stylesheet" type="text/css" href="/static/style.css?v=13">
+	<link rel="stylesheet" type="text/css" href="/static/style.css?v=14">
 	<link rel="alternate" type="application/rss+xml" title="Lucian Marin" href="https://feeds.feedburner.com/lucianmarin">
 </head>
 <body>
 	<div class="trans">
 		<div class="center">
-			<p class="meta">Hello</p>
 			<div class="product">
 				<svg viewBox="0 0 24 24" width="16" height="16">
 					<path d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -34,7 +33,7 @@
 	</div>
 	<div class="alt">
 		<div class="center">
-			<p class="meta">Web</p>
+			<p class="meta">Web Apps</p>
 			<div class="product">
 				<svg viewBox="0 0 24 24" width="16" height="16">
 					<path d="M4.871 4A17.926 17.926 0 003 12c0 2.874.673 5.59 1.871 8m14.13 0a17.926 17.926 0 001.87-8c0-2.874-.673-5.59-1.87-8M9 9h1.246a1 1 0 01.961.725l1.586 5.55a1 1 0 00.961.725H15m1-7h-.08a2 2 0 00-1.519.698L9.6 15.302A2 2 0 018.08 16H8" />
@@ -89,7 +88,7 @@
 	</div>
 	<div class="alt">
 		<div class="center">
-			<p class="meta">Mac</p>
+			<p class="meta">Mac Apps</p>
 			<div class="product">
 				<svg viewBox="0 0 24 24" width="16" height="16">
 					<path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -127,7 +126,7 @@
 	</div>
 	<div class="trans">
 		<div class="center">
-			<p class="meta">Contact</p>
+			<p class="meta">Contact Me</p>
 			<div class="links">
 				<p>Gmail</p>
 				<p>marin.lucian</p>
@@ -138,7 +137,7 @@
 	</div>
 	<div class="alt">
 		<div class="center">
-			<p class="meta">Social</p>
+			<p class="meta">Almost Social</p>
 			<div class="links">
 				<p><a href="https://dribbble.com/lucianmarin">Dribbble</a></p>
 				<p><a href="https://designspiration.com/lucianmarin">Designspiration</a></p>
@@ -157,7 +156,7 @@
 	</div>
 	<div class="trans">
 		<div class="center">
-			<p class="meta">Code</p>
+			<p class="meta">Open Source</p>
 			<div class="links">
 				<p>Python</p>
 				<p><a href="https://github.com/lucianmarin/logparser">Logparser</a></p>

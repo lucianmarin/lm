@@ -1,14 +1,17 @@
 html {
 	--white: #fff;
 	--whitesmoke: #f0f0f0;
-	--silver: #808080;
+	--gray: #808080;
+	--silver: #c0c0c0;
 	--black: #000;
+	--tiny: 11px;
 }
 
 @media (prefers-color-scheme: dark) {
 	html {
 		--white: #000;
 		--whitesmoke: #202020;
+		--silver: #404040;
 		--black: #fff;
 	}
 }
@@ -19,8 +22,8 @@ body {
 	background-color: var(--white);
 	cursor: default;
 	color: var(--black);
-	font-family: "Route 159", sans-serif;
-	font-size: 14px;
+	font-family: "Vegur", sans-serif;
+	font-size: 15px;
 	line-height: 20px;
 }
 
@@ -30,10 +33,13 @@ a {
 	text-decoration: none;
 	transition: color 0.2s;
 }
-	a:hover { color: var(--silver); }
+	a:hover { color: var(--gray); }
 
 sup {
-	line-height: 0; margin-left: 2px; color: var(--silver); font-size: 10px;
+	color: var(--gray);
+	font-size: var(--tiny);
+	line-height: 0;
+	margin-left: 2px;
 }
 
 svg {
@@ -41,10 +47,7 @@ svg {
     stroke-linejoin: round;
     stroke-width: 2;
 }
-    svg path {
-        fill: none;
-        stroke: var(--black);
-	}
+    svg path { fill: none; stroke: var(--black); }
 
 .center { margin: 0 auto; max-width: 300px; }
 
@@ -54,6 +57,7 @@ svg {
 
 .trans { background-color: var(--white); }
 	.trans .product svg { background-color: var(--whitesmoke); }
+	.trans:first-child { padding-top: 10px; }
 
 .links { margin-bottom: 10px; overflow: hidden; }
 	.links p { float: left; width: 50%; }
@@ -74,22 +78,23 @@ svg {
 	}
 
 .meta {
-	font-size: 10px;
+	color: var(--gray);
+	font-size: var(--tiny);
 	font-weight: bold;
 	line-height: 30px;
 	text-transform: uppercase;
 }
 
 @font-face {
-	font-family: "Route 159";
+	font-family: "Vegur";
 	font-style: normal;
 	font-weight: normal;
-	src: url(/route159/regular.woff2) format("woff2");
+	src: url(/vegur/regular.woff2) format("woff2");
 }
 
 @font-face {
-	font-family: "Route 159";
+	font-family: "Vegur";
 	font-style: normal;
 	font-weight: bold;
-	src: url(/route159/bold.woff2) format("woff2");
+	src: url(/vegur/bold.woff2) format("woff2");
 }

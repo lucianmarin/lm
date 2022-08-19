@@ -2,7 +2,7 @@ html {
 	--white: #fff;
 	--whitesmoke: #f0f0f0;
 	--gainsboro: #e0e0e0;
-	--silver: #808080;
+	--gray: #808080;
 	--black: #000;
 }
 
@@ -20,8 +20,8 @@ html {
 body {
 	background-color: var(--gainsboro);
 	color: var(--black);
-	font-family: "Route 159", sans-serif;
-	font-size: 14.5px;
+	font-family: "Vegur", sans-serif;
+	font-size: 15px;
 	line-height: 24px;
 }
 
@@ -75,15 +75,15 @@ textarea {
 	}
 
 @font-face {
-	font-family: "Route 159";
+	font-family: "Vegur";
 	font-style: normal;
 	font-weight: normal;
-	src: url(/route159/regular.woff2) format("woff2");
+	src: url(/vegur/regular.woff2) format("woff2");
 }
 
 @font-face {
-	font-family: "Route 159";
+	font-family: "Vegur";
 	font-style: normal;
 	font-weight: bold;
-	src: url(/route159/bold.woff2) format("woff2");
+	src: url(/vegur/bold.woff2) format("woff2");
 }
