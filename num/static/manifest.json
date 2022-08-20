@@ -2,7 +2,7 @@
 	"lang": "en",
 	"name": "Num",
 	"short_name": "Num",
-	"description": "Multiline math calculator",
+	"description": "Multiline math calculator.",
 	"icons": [
 		{
 			"src": "/num/static/num.png",

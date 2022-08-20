@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Multiline math calculator based on Math JS.">
+	<meta name="description" content="Multiline math calculator.">
 	<meta name="keywords" content="math, calculator, excel, spreadsheet">
 	<meta name="author" content="Lucian Marin">
 	<meta property="og:image" content="static/num.png">
