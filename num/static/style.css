@@ -1,4 +1,5 @@
 html {
+	--regular: 15px;
 	--white: #fff;
 	--whitesmoke: #f0f0f0;
 	--gainsboro: #e0e0e0;
@@ -20,17 +21,15 @@ html {
 body {
 	background-color: var(--gainsboro);
 	color: var(--black);
-	font-family: "Vegur", sans-serif;
-	font-size: 15px;
+	font-family: "route159", sans-serif;
+	font-size: var(--regular);
 	line-height: 24px;
 }
 
 a { text-decoration: none; }
 
 .container { display: grid; grid-template-columns: 50% 50%; }
-
 .left, .right { padding: 10px 0; height: calc(100vh - 20px); }
-
 .left { background-color: var(--white); }
 .right { background-color: var(--whitesmoke); }
 
@@ -38,15 +37,16 @@ textarea {
 	background-color: var(--white);;
 	border: 0 none;
 	color: var(--black);
-	font-family: "Vegur", sans-serif;
-	font-size: 15px;
+	font-family: "Route 159", sans-serif;
+	font-size: var(--regular);
 	line-height: 25px;
 	overflow: hidden;
 	padding: 0 15px;
 	resize: none;
 	width: calc(100% - 30px);
 }
-	textarea:focus { outline: 0 none; }
+
+textarea:focus { outline: 0 none; }
 
 #response p {
 	border-bottom: var(--gainsboro) 1px solid;
@@ -55,35 +55,38 @@ textarea {
 	text-overflow: ellipsis;
 	white-space: nowrap;
 }
-	#response p:last-child { border-bottom: 0 none; }
+
+#response p:last-child { border-bottom: 0 none; }
 
 .help {
 	bottom: 10px;
 	position: absolute;
 	right: 15px;
-	font-size: 13.5px;
+	font-size: 12px;
+	font-weight: bold;
 	line-height: 20px;
 }
-	.help a {
-		background-color: var(--black);
-		border-radius: 10px;
-		color: var(--white);
-		display: block;
-		height: 20px;
-		text-align: center;
-		width: 20px;
-	}
 
-@font-face {
-	font-family: "Vegur";
-	font-style: normal;
-	font-weight: normal;
-	src: url(/vegur/regular.woff2) format("woff2");
+.help a {
+	background-color: var(--black);
+	border-radius: 10px;
+	color: var(--white);
+	display: block;
+	height: 20px;
+	text-align: center;
+	width: 20px;
 }
 
 @font-face {
-	font-family: "Vegur";
+	font-family: "Route 159";
+	font-style: normal;
+	font-weight: normal;
+	src: url(/route159/regular.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "Route 159";
 	font-style: normal;
 	font-weight: bold;
-	src: url(/vegur/bold.woff2) format("woff2");
+	src: url(/route159/bold.woff2) format("woff2");
 }

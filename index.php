@@ -12,7 +12,7 @@
 	<link rel="apple-touch-icon" type="image/png" href="/static/plus.png">
 	<link rel="icon" sizes="192x192" type="image/png" href="/static/plus.png">
 	<link rel="manifest" type="application/json" href="/static/manifest.json">
-	<link rel="stylesheet" type="text/css" href="/static/style.css?v=15">
+	<link rel="stylesheet" type="text/css" href="/static/style.css?v=16">
 	<link rel="alternate" type="application/rss+xml" title="Lucian Marin" href="https://feeds.feedburner.com/lucianmarin">
 </head>
 <body>
@@ -20,7 +20,7 @@
 		<div class="center">
 			<div class="product">
 				<svg viewBox="0 0 24 24" width="16" height="16">
-					<path d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+					<path d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
 				</svg>
 				<p>
 					<a href="/">
@@ -130,7 +130,7 @@
 			<div class="links">
 				<p>Gmail</p>
 				<p>marin.lucian</p>
-				<p>Text</p>
+				<p>Message</p>
 				<p>+40 726 210 589</p>
 			</div>
 		</div>

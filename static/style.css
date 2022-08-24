@@ -1,10 +1,11 @@
 html {
-	--tiny: 11px;
+	--tiny: 10px;
+	--regular: 14px;
 	--white: #fff;
 	--whitesmoke: #f0f0f0;
 	--gainsboro: #e0e0e0;
-	--gray: #808080;
 	--silver: #c0c0c0;
+	--gray: #808080;
 	--black: #000;
 }
 
@@ -24,8 +25,8 @@ body {
 	background-color: var(--white);
 	cursor: default;
 	color: var(--black);
-	font-family: "Vegur", sans-serif;
-	font-size: 15px;
+	font-family: "Route 159", sans-serif;
+	font-size: var(--regular);
 	line-height: 20px;
 }
 
@@ -35,6 +36,7 @@ a {
 	text-decoration: none;
 	transition: color 0.2s;
 }
+
 a:hover { color: var(--gray); }
 
 sup {
@@ -44,19 +46,13 @@ sup {
 	margin-left: 2px;
 }
 
-svg {
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 2;
-}
+svg { stroke-linecap: round; stroke-linejoin: round; stroke-width: 2; }
 svg path { fill: none; stroke: var(--black); }
 
 .center { margin: 0 auto; max-width: 300px; }
 
 .alt, .trans { overflow: hidden; }
-
 .alt { background-color: var(--whitesmoke); }
-
 .trans { background-color: var(--white); }
 .trans:first-child { padding-top: 10px; }
 
@@ -69,6 +65,7 @@ svg path { fill: none; stroke: var(--black); }
 	overflow: hidden;
 	padding-left: 46px;
 }
+
 .product svg {
 	background-color: var(--white);
 	border: var(--gainsboro) 1px solid;
@@ -88,15 +85,15 @@ svg path { fill: none; stroke: var(--black); }
 }
 
 @font-face {
-	font-family: "Vegur";
+	font-family: "Route 159";
 	font-style: normal;
 	font-weight: normal;
-	src: url(/vegur/regular.woff2) format("woff2");
+	src: url(/route159/regular.woff2) format("woff2");
 }
 
 @font-face {
-	font-family: "Vegur";
+	font-family: "Route 159";
 	font-style: normal;
 	font-weight: bold;
-	src: url(/vegur/bold.woff2) format("woff2");
+	src: url(/route159/bold.woff2) format("woff2");
 }

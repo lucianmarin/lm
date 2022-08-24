@@ -12,7 +12,7 @@
 	<link rel="apple-touch-icon" type="image/png" href="static/num.png">
 	<link rel="icon" sizes="192x192" type="image/png" href="static/num.png">
 	<link rel="manifest" type="application/json" href="static/manifest.json">
-	<link rel="stylesheet" type="text/css" href="static/style.css?v=8">
+	<link rel="stylesheet" type="text/css" href="static/style.css?v=9">
 	<script type="text/javascript" src="static/math.js"></script>
 	<script type="text/javascript" src="static/script.js?v=4"></script>
 </head>
@@ -23,7 +23,7 @@
 	<div class="container">
 		<div class="left">
 			<textarea id="content" rows=1 cols=80 autofocus
-				oninput="eval(this)" placeholder="Evaluate"></textarea>
+				oninput="calc(this)" placeholder="Calculate"></textarea>
 		</div>
 		<div class="right">
 			<div id="response"></div>

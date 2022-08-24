@@ -2,11 +2,11 @@ function load() {
 	element = document.getElementById("content");
 	if (localStorage.content) {
 		element.value = localStorage.content;
-		eval(element);
+		calc(element);
 	}
 }
 
-function eval(element) {
+function calc(element) {
 	const parser = math.parser();
 	var content = element.value;
 	var splitLines = content.split(/\r?\n/);
