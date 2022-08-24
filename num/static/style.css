@@ -21,7 +21,7 @@ html {
 body {
 	background-color: var(--gainsboro);
 	color: var(--black);
-	font-family: "route159", sans-serif;
+	font-family: "Route 159", sans-serif;
 	font-size: var(--regular);
 	line-height: 24px;
 }
