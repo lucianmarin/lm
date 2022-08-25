@@ -46,7 +46,7 @@ sup {
 	margin-left: 2px;
 }
 
-svg { stroke-linecap: round; stroke-linejoin: round; stroke-width: 2; }
+svg { stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5; }
 svg path { fill: none; stroke: var(--black); }
 
 .center { margin: 0 auto; max-width: 300px; }
@@ -63,17 +63,21 @@ svg path { fill: none; stroke: var(--black); }
 	height: 40px;
 	margin-bottom: 10px;
 	overflow: hidden;
-	padding-left: 46px;
+	padding-left: 50px;
 }
 
 .product svg {
 	background-color: var(--white);
-	border: var(--gainsboro) 1px solid;
+	border: var(--whitesmoke) 2px solid;
 	border-radius: 9px;
 	float: left;
-	margin: 2px 0;
-	margin-left: -46px;
-	padding: 9px;
+	margin-left: -50px;
+	padding: 8px;
+}
+
+.trans .product svg {
+	background-color: var(--whitesmoke);
+	border: var(--white) 2px solid;
 }
 
 .meta {
