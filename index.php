@@ -82,7 +82,6 @@
 						<strong>Google Play</strong>
 					</a>
 				</p>
-				<p>Lightweight apps for your phone.</p>
 				<p>
 					<a href="https://play.google.com/store/apps/details?id=com.lucianmarin.num">Num</a>,
 					<a href="https://play.google.com/store/apps/details?id=com.lucianmarin.sub">Subreply</a> and
