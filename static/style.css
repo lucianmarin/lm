@@ -60,7 +60,6 @@ svg path { fill: none; stroke: var(--black); }
 .links p { float: left; width: 50%; }
 
 .product {
-	height: 40px;
 	margin-bottom: 10px;
 	overflow: hidden;
 	padding-left: 50px;

@@ -12,7 +12,7 @@
 	<link rel="apple-touch-icon" type="image/png" href="/static/192.png">
 	<link rel="icon" sizes="192x192" type="image/png" href="/static/192.png">
 	<link rel="manifest" type="application/json" href="/static/manifest.json">
-	<link rel="stylesheet" type="text/css" href="/static/style.css?v=17">
+	<link rel="stylesheet" type="text/css" href="/static/style.css?v=18">
 	<link rel="alternate" type="application/rss+xml" title="Lucian Marin" href="https://feeds.feedburner.com/lucianmarin">
 </head>
 <body>
@@ -27,7 +27,7 @@
 						<strong>Lucian Marin</strong>
 					</a>
 				</p>
-				<p>Python Developer</p>
+				<p>Software and design.</p>
 			</div>
 		</div>
 	</div>
@@ -75,14 +75,19 @@
 			<p class="meta">Android Apps</p>
 			<div class="product">
 				<svg viewBox="0 0 24 24" width="20" height="20">
-					<path d="M13 10V3L4 14h7v7l9-11h-7z" />
+					<path d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
 				</svg>
 				<p>
-					<a href="https://play.google.com/store/apps/details?id=com.lucianmarin.sub">
-						<strong>Subreply</strong>
+					<a href="https://play.google.com/store/apps/developer?id=Lucian+Marin">
+						<strong>Google Play</strong>
 					</a>
 				</p>
-				<p>Lightweightest social network.</p>
+				<p>Lightweight apps for your phone.</p>
+				<p>
+					<a href="https://play.google.com/store/apps/details?id=com.lucianmarin.num">Num</a>,
+					<a href="https://play.google.com/store/apps/details?id=com.lucianmarin.sub">Subreply</a> and
+					<a href="https://play.google.com/store/apps/details?id=com.lucianmarin.vice">Supravice</a>.
+				</p>
 			</div>
 		</div>
 	</div>
