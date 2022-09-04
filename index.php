@@ -164,16 +164,18 @@
 			<div class="links">
 				<p>Python</p>
 				<p><a href="https://github.com/lucianmarin/logparser">Logparser</a></p>
-				<p>Python</p>
-				<p><a href="https://github.com/lucianmarin/pybench">PyBench</a></p>
-				<p>PHP</p>
-				<p><a href="https://github.com/lucianmarin/pressdown">Pressdown</a></p>
+				<p>&nbsp;</p>
+				<p><a href="https://github.com/lucianmarin/pybench">Pybench</a></p>
 				<p>PHP</p>
 				<p><a href="https://github.com/lucianmarin/instanote">Instanote</a></p>
-				<p>PHP</p>
+				<p>&nbsp;</p>
 				<p><a href="https://github.com/lucianmarin/instaphoto">Instaphoto</a></p>
+				<p>Kotlin</p>
+				<p><a href="https://github.com/lucianmarin/subdroid">Subdroid</a></p>
 				<p>CSS</p>
 				<p><a href="https://github.com/lucianmarin/peculiar">Peculiar</a></p>
+				<p>WordPress</p>
+				<p><a href="https://github.com/lucianmarin/wp-journalist">Journalist</a></p>
 			</div>
 		</div>
 	</div>
