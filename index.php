@@ -27,7 +27,7 @@
 						<strong>Lucian Marin</strong>
 					</a>
 				</p>
-				<p>Software and design.</p>
+				<p>Python Developer</p>
 			</div>
 		</div>
 	</div>
@@ -84,7 +84,7 @@
 				</p>
 				<p>
 					<a href="https://play.google.com/store/apps/details?id=com.lucianmarin.num">Num</a> and
-					<a href="https://play.google.com/store/apps/details?id=com.lucianmarin.sub">Subreply</a>.
+					<a href="https://play.google.com/store/apps/details?id=com.lucianmarin.sub">Subreply</a> on your phone.
 				</p>
 			</div>
 		</div>
