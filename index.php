@@ -83,9 +83,8 @@
 					</a>
 				</p>
 				<p>
-					<a href="https://play.google.com/store/apps/details?id=com.lucianmarin.num">Num</a>,
-					<a href="https://play.google.com/store/apps/details?id=com.lucianmarin.sub">Subreply</a> and
-					<a href="https://play.google.com/store/apps/details?id=com.lucianmarin.vice">Supravice</a>.
+					<a href="https://play.google.com/store/apps/details?id=com.lucianmarin.num">Num</a> and
+					<a href="https://play.google.com/store/apps/details?id=com.lucianmarin.sub">Subreply</a>.
 				</p>
 			</div>
 		</div>
