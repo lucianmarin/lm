@@ -75,16 +75,15 @@
 			<p class="meta">Android Apps</p>
 			<div class="product">
 				<svg viewBox="0 0 24 24" width="20" height="20">
-					<path d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
+					<path d="M4.871 4A17.926 17.926 0 003 12c0 2.874.673 5.59 1.871 8m14.13 0a17.926 17.926 0 001.87-8c0-2.874-.673-5.59-1.87-8M9 9h1.246a1 1 0 01.961.725l1.586 5.55a1 1 0 00.961.725H15m1-7h-.08a2 2 0 00-1.519.698L9.6 15.302A2 2 0 018.08 16H8" />
 				</svg>
 				<p>
-					<a href="https://play.google.com/store/apps/dev?id=5841023975422341083">
-						<strong>Google Play</strong>
+					<a href="https://play.google.com/store/apps/details?id=com.lucianmarin.num">
+						<strong>Num</strong>
 					</a>
 				</p>
 				<p>
-					<a href="https://play.google.com/store/apps/details?id=com.lucianmarin.num">Num</a> and
-					<a href="https://play.google.com/store/apps/details?id=com.lucianmarin.sub">Subreply</a> on your phone.
+					Advanced math on your phone.
 				</p>
 			</div>
 		</div>
@@ -163,14 +162,14 @@
 			<div class="links">
 				<p>Python</p>
 				<p><a href="https://github.com/lucianmarin/logparser">Logparser</a></p>
-				<p>&nbsp;</p>
+				<p>Python</p>
 				<p><a href="https://github.com/lucianmarin/pybench">Pybench</a></p>
 				<p>PHP</p>
 				<p><a href="https://github.com/lucianmarin/instanote">Instanote</a></p>
-				<p>&nbsp;</p>
+				<p>PHP</p>
 				<p><a href="https://github.com/lucianmarin/instaphoto">Instaphoto</a></p>
 				<p>Kotlin</p>
-				<p><a href="https://github.com/lucianmarin/subdroid">Subdroid</a></p>
+				<p><a href="https://github.com/lucianmarin/numdroid">Numdroid</a></p>
 				<p>CSS</p>
 				<p><a href="https://github.com/lucianmarin/peculiar">Peculiar</a></p>
 				<p>WordPress</p>
