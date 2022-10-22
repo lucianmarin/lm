@@ -56,18 +56,6 @@
 				</p>
 				<p>Built for speed. Engineered to last.</p>
 			</div>
-			<div class="product">
-				<svg viewBox="0 0 24 24" width="20" height="20">
-					<path d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
-					<path d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
-				</svg>
-				<p>
-					<a href="https://supravice.com/">
-						<strong>Supravice</strong>
-					</a>
-				</p>
-				<p>News syndication authority.</p>
-			</div>
 		</div>
 	</div>
 	<div class="trans">
@@ -147,12 +135,10 @@
 				<p><a href="https://github.com/lucianmarin">GitHub</a></p>
 				<p><a href="https://instagram.com/lucianmarin">Instagram</a></p>
 				<p><a href="https://ro.linkedin.com/in/marinlucian">LinkedIn</a></p>
-				<p><a href="https://paypal.me/lucianmarin">PayPal</a></p>
 				<p><a href="https://soundcloud.com/lucianmarin">SoundCloud</a></p>
 				<p><a href="https://open.spotify.com/user/lucianmarin">Spotify</a></p>
 				<p><a href="https://twitter.com/lucianmarin">Twitter</a></p>
 				<p><a href="https://t.me/lucianmarin">Telegram</a></p>
-				<p><a href="https://vsco.co/lucianmarin">VSCO</a></p>
 			</div>
 		</div>
 	</div>
