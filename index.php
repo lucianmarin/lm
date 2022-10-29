@@ -157,12 +157,8 @@
 				<p><a href="https://github.com/lucianmarin/instanote">Instanote</a></p>
 				<p>PHP</p>
 				<p><a href="https://github.com/lucianmarin/instaphoto">Instaphoto</a></p>
-				<p>Kotlin</p>
+				<p>JavaScript</p>
 				<p><a href="https://github.com/lucianmarin/numdroid">Numdroid</a></p>
-				<p>CSS</p>
-				<p><a href="https://github.com/lucianmarin/peculiar">Peculiar</a></p>
-				<p>WordPress</p>
-				<p><a href="https://github.com/lucianmarin/wp-journalist">Journalist</a></p>
 			</div>
 		</div>
 	</div>
