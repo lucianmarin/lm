@@ -60,27 +60,6 @@
 	</div>
 	<div class="trans">
 		<div class="center">
-			<p class="meta">Android Apps</p>
-			<div class="product">
-				<svg viewBox="0 0 24 24" width="20" height="20">
-					<path d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
-				</svg>
-				<p>
-					<a href="https://play.google.com/store/apps/dev?id=5841023975422341083">
-						<strong>Play Store</strong>
-					</a>
-				</p>
-				<p>
-					<a href="https://play.google.com/store/apps/details?id=com.lucianmarin.num">Num</a>
-					and
-					<a href="https://play.google.com/store/apps/details?id=com.lucianmarin.sub">Subreply</a>
-					on your phone.
-				</p>
-			</div>
-		</div>
-	</div>
-	<div class="alt">
-		<div class="center">
 			<p class="meta">Mac Apps</p>
 			<div class="product">
 				<svg viewBox="0 0 24 24" width="20" height="20">
@@ -117,7 +96,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="trans">
+	<div class="alt">
 		<div class="center">
 			<p class="meta">Contact Me</p>
 			<div class="links">
@@ -128,7 +107,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="alt">
+	<div class="trans">
 		<div class="center">
 			<p class="meta">Almost Social</p>
 			<div class="links">
@@ -142,23 +121,6 @@
 				<p><a href="https://open.spotify.com/user/lucianmarin">Spotify</a></p>
 				<p><a href="https://twitter.com/lucianmarin">Twitter</a></p>
 				<p><a href="https://t.me/lucianmarin">Telegram</a></p>
-			</div>
-		</div>
-	</div>
-	<div class="trans">
-		<div class="center">
-			<p class="meta">Open Source</p>
-			<div class="links">
-				<p>Python</p>
-				<p><a href="https://github.com/lucianmarin/logparser">Logparser</a></p>
-				<p>Python</p>
-				<p><a href="https://github.com/lucianmarin/pybench">Pybench</a></p>
-				<p>PHP</p>
-				<p><a href="https://github.com/lucianmarin/instanote">Instanote</a></p>
-				<p>PHP</p>
-				<p><a href="https://github.com/lucianmarin/instaphoto">Instaphoto</a></p>
-				<p>JavaScript</p>
-				<p><a href="https://github.com/lucianmarin/numdroid">Numdroid</a></p>
 			</div>
 		</div>
 	</div>
