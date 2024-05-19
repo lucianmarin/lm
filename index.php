@@ -111,16 +111,18 @@
 		<div class="center">
 			<p class="meta">Almost Social</p>
 			<div class="links">
-				<p><a href="https://dribbble.com/lucianmarin">Dribbble</a></p>
 				<p><a href="https://designspiration.com/lucianmarin">Designspiration</a></p>
+				<p><a href="https://dribbble.com/lucianmarin">Dribbble</a></p>
+				<p><a href="https://facebook.com/lcnmrn">Facebook</a></p>
 				<p><a href="https://figma.com/@lucianmarin">Figma</a></p>
 				<p><a href="https://github.com/lucianmarin">GitHub</a></p>
+				<p><a href="https://news.ycombinator.com/user?id=lcnmrn">Hacker News</a></p>
 				<p><a href="https://instagram.com/lucianmarin">Instagram</a></p>
 				<p><a href="https://ro.linkedin.com/in/marinlucian">LinkedIn</a></p>
+				<p><a href="https://reddit.com/user/lucianmarin">Reddit</a></p>
 				<p><a href="https://soundcloud.com/lucianmarin">SoundCloud</a></p>
 				<p><a href="https://open.spotify.com/user/lucianmarin">Spotify</a></p>
-				<p><a href="https://twitter.com/lucianmarin">Twitter</a></p>
-				<p><a href="https://t.me/lucianmarin">Telegram</a></p>
+				<p><a href="https://x.com/lucianmarin">X</a></p>
 			</div>
 		</div>
 	</div>
