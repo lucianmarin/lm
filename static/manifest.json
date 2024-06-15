@@ -1,8 +1,8 @@
 {
 	"lang": "en",
-	"name": "Num",
-	"short_name": "Num",
-	"description": "Multiline math calculator.",
+	"name": "Variable",
+	"short_name": "Var",
+	"description": "Multiline math calculator",
 	"icons": [
 		{
 			"src": "/static/any.png",
@@ -17,7 +17,7 @@
 			"purpose": "maskable"
 		}
 	],
-	"start_url": "/num/",
+	"start_url": "/var/",
 	"display": "standalone",
 	"orientation": "portrait",
 	"status": "ok"
