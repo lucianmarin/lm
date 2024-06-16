@@ -28,8 +28,13 @@ body {
 
 a { text-decoration: none; }
 
-.container { display: grid; grid-template-columns: 50% 50%; }
-.left, .right { padding: 10px 0; height: calc(100vh - 20px); }
+.container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	height: 100dvh;
+}
+
+.left, .right { padding: 10px 0; height: calc(100% - 20px); }
 .left { background-color: var(--white); }
 .right { background-color: var(--whitesmoke); }
 
