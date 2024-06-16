@@ -1,9 +1,9 @@
-# lm
+## lm
 
-Personal site of Lucian Marin
+Personal site of Lucian Marin.
 
-## num
+## var
 
-Numeric is a multiline math calculator.
+Variable is a multiline math calculator.
 
-Web based version is on https://lucianmarin.com/num/
+You can access it at https://lucianmarin.com/var/
