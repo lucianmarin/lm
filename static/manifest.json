@@ -1,7 +1,7 @@
 {
 	"lang": "en",
-	"name": "Variable",
-	"short_name": "Var",
+	"name": "X",
+	"short_name": "X",
 	"description": "Multiline math calculator",
 	"icons": [
 		{
@@ -17,7 +17,7 @@
 			"purpose": "maskable"
 		}
 	],
-	"start_url": "/var/",
+	"start_url": "/x/",
 	"display": "standalone",
 	"orientation": "portrait",
 	"status": "ok"
