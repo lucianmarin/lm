@@ -1,5 +1,5 @@
 html {
-	--regular: 15px;
+	--regular: 14px;
 	--white: #fff;
 	--whitesmoke: #f0f0f0;
 	--gainsboro: #e0e0e0;
@@ -21,7 +21,7 @@ html {
 body {
 	background-color: var(--gainsboro);
 	color: var(--black);
-	font-family: "Route 159", sans-serif;
+	font-family: "Intel One Mono", monospace;
 	font-size: var(--regular);
 	line-height: 24px;
 }
@@ -42,7 +42,7 @@ textarea {
 	background-color: var(--white);;
 	border: 0 none;
 	color: var(--black);
-	font-family: "Route 159", sans-serif;
+	font-family: "Intel One Mono", monospace;
 	font-size: var(--regular);
 	line-height: 25px;
 	overflow: hidden;
@@ -83,15 +83,8 @@ textarea:focus { outline: 0 none; }
 }
 
 @font-face {
-	font-family: "Route 159";
+	font-family: "Intel One Mono";
 	font-style: normal;
 	font-weight: normal;
-	src: url(route159/regular.woff2) format("woff2");
-}
-
-@font-face {
-	font-family: "Route 159";
-	font-style: normal;
-	font-weight: bold;
-	src: url(route159/bold.woff2) format("woff2");
+	src: url(intelone/regular.woff2) format("woff2");
 }
