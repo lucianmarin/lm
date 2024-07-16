@@ -1,0 +1,22 @@
+[Unit]
+Description=LM service
+After=network.target nginx.service
+
+[Service]
+User=lucian
+Group=lucian
+PIDFile=/home/lucian/lm/lm.pid
+RuntimeDirectory=uvicorn
+WorkingDirectory=/home/lucian/lm
+ExecStart=/usr/local/bin/uvicorn main:app --uds lm.socket
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s TERM $MAINPID
+PrivateTmp=true
+
+[Install]
+WantedBy=default.target
+
+# sudo cp lm.service /etc/systemd/system/lm.service
+# sudo systemctl daemon-reload
+# sudo systemctl restart lm.service
+# sudo systemctl enable lm.service // on boot
