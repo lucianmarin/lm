@@ -2,7 +2,7 @@
 	"lang": "en",
 	"name": "X",
 	"short_name": "X",
-	"description": "Multiline math calculator",
+	"description": "Solve any math for x variable",
 	"icons": [
 		{
 			"src": "/static/any.png",
