@@ -20,7 +20,11 @@ async def r(request):
     return RedirectResponse('/')
 
 
-routes = [Route('/', lm), Route('/x', x), Route('/{r}', r)]
+routes = [
+    Route('/', lm),
+    Route('/x', x),
+    Route('/{r}', r)
+]
 
 if DEBUG:
     routes.append(Mount(
