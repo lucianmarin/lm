@@ -17,13 +17,16 @@ async def x(request):
 
 
 async def r(request):
+    path = request.path_params['path']
+    if path in ['xcalc', 'num']:
+        return RedirectResponse('/x')
     return RedirectResponse('/')
 
 
 routes = [
     Route('/', lm),
     Route('/x', x),
-    Route('/{r}', r)
+    Route('/{path}', r)
 ]
 
 if DEBUG:
