@@ -9,20 +9,10 @@ html {
 	--black: #000;
 }
 
-@media (prefers-color-scheme: dark) {
-	html {
-		--white: #000;
-		--whitesmoke: #202020;
-		--gainsboro: #303030;
-		--silver: #404040;
-		--black: #fff;
-	}
-}
-
 * { margin: 0; padding: 0; }
 
 body {
-	background-color: var(--white);
+	background-color: var(--gainsboro);
 	cursor: default;
 	color: var(--black);
 	font-family: "Route 159", sans-serif;
@@ -46,18 +36,27 @@ sup {
 	margin-left: 2px;
 }
 
-svg { stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5; }
-svg path { fill: none; stroke: var(--black); }
-
 .center { margin: 0 auto; max-width: 300px; }
 
-.alt, .trans { overflow: hidden; }
-.alt { background-color: var(--whitesmoke); }
-.trans { background-color: var(--white); }
-.trans:first-child { padding-top: 10px; }
+.block { overflow: hidden; }
+.teal { background-color: #00A99D; }
+.green { background-color: #8CC63F; }
+.orange { background-color: #FBB03B; }
+.cyan { background-color: #29ABE2; }
+.trans { background-color: var(--silver); }
+.trans:first-child { padding: 15px 0; }
 
 .links { margin-bottom: 10px; overflow: hidden; }
 .links p { float: left; width: 50%; }
+
+.logo {
+	height: 30px;
+}
+
+.logo svg {
+	display: block;
+	margin: 0 auto;
+}
 
 .product {
 	margin-bottom: 10px;
@@ -66,12 +65,20 @@ svg path { fill: none; stroke: var(--black); }
 }
 
 .product svg {
-	background-color: var(--white);
-	border: var(--whitesmoke) 2px solid;
-	border-radius: 9px;
+	/* background-color: var(--silver);
+	border: var(--silver) 2px solid;
+	border-radius: 9px; */
 	float: left;
 	margin-left: -50px;
-	padding: 8px;
+	padding: 10px;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-width: 1.5;
+}
+
+.product svg path {
+	fill: none;
+	stroke: var(--black);
 }
 
 .trans .product svg {
@@ -80,7 +87,7 @@ svg path { fill: none; stroke: var(--black); }
 }
 
 .meta {
-	color: var(--gray);
+	color: var(--white);
 	font-size: var(--tiny);
 	font-weight: bold;
 	line-height: 30px;
