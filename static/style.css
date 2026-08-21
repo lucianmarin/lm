@@ -12,7 +12,7 @@ html {
 * { margin: 0; padding: 0; }
 
 body {
-	background-color: var(--gainsboro);
+	background-color: var(--silver);
 	cursor: default;
 	color: var(--black);
 	font-family: "Route 159", sans-serif;
@@ -43,7 +43,7 @@ sup {
 .green { background-color: #8CC63F; }
 .orange { background-color: #FBB03B; }
 .cyan { background-color: #29ABE2; }
-.trans { background-color: var(--silver); }
+.trans { background-color: transparent; }
 .trans:first-child { padding: 15px 0; }
 
 .links { margin-bottom: 10px; overflow: hidden; }
