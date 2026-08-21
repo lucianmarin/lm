@@ -49,14 +49,8 @@ sup {
 .links { margin-bottom: 10px; overflow: hidden; }
 .links p { float: left; width: 50%; }
 
-.logo {
-	height: 30px;
-}
-
-.logo svg {
-	display: block;
-	margin: 0 auto;
-}
+.logo { height: 30px; }
+.logo svg { display: block; margin: 0 auto; }
 
 .product {
 	margin-bottom: 10px;
@@ -65,12 +59,9 @@ sup {
 }
 
 .product svg {
-	/* background-color: var(--silver);
-	border: var(--silver) 2px solid;
-	border-radius: 9px; */
 	float: left;
 	margin-left: -50px;
-	padding: 10px;
+	padding: 8px;
 	stroke-linecap: round;
 	stroke-linejoin: round;
 	stroke-width: 1.5;
@@ -79,11 +70,6 @@ sup {
 .product svg path {
 	fill: none;
 	stroke: var(--black);
-}
-
-.trans .product svg {
-	background-color: var(--whitesmoke);
-	border: var(--white) 2px solid;
 }
 
 .meta {
