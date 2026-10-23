@@ -7,6 +7,10 @@ html {
 	--silver: #c0c0c0;
 	--gray: #808080;
 	--black: #000;
+	--orange: #FBB03B;
+	--teal: #00A99D;
+	--green: #8CC63F;
+	--cyan: #29ABE2;
 }
 
 * { margin: 0; padding: 0; }
@@ -39,10 +43,10 @@ sup {
 .center { margin: 0 auto; max-width: 300px; }
 
 .block { overflow: hidden; }
-.teal { background-color: #00A99D; }
-.green { background-color: #8CC63F; }
-.orange { background-color: #FBB03B; }
-.cyan { background-color: #29ABE2; }
+.teal { background-color: var(--teal); }
+.green { background-color: var(--green); }
+.orange { background-color: var(--orange); }
+.cyan { background-color: var(--cyan); }
 .trans { background-color: transparent; }
 .trans:first-child { padding: 15px 0; }
 
