@@ -1,0 +1,213 @@
+html {
+	--tiny: 10px;
+	--regular: 14px;
+	--white: #fff;
+	--gray: #808080;
+	--silver: #c0c0c0;
+	--black: #000;
+	--line: rgba(255, 255, 255, 0.2);
+	--orange: #FBB03B;
+	--teal: #00A99D;
+	--green: #8CC63F;
+	--cyan: #29ABE2;
+	--label-w: 50px;
+	--speed: 0.5s;
+	--ease: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body { height: 100%; }
+
+body {
+	background-color: var(--silver);
+	color: var(--black);
+	cursor: default;
+	font-family: "Route 159", sans-serif;
+	font-size: var(--regular);
+	line-height: 20px;
+	overflow: hidden;
+}
+
+a {
+	color: var(--black);
+	cursor: pointer;
+	text-decoration: none;
+	transition: color 0.2s;
+}
+
+a:hover { color: var(--gray); }
+
+sup {
+	color: var(--gray);
+	font-size: var(--tiny);
+	line-height: 0;
+	margin-left: 2px;
+}
+
+.teal { background-color: var(--teal); }
+.green { background-color: var(--green); }
+.orange { background-color: var(--orange); }
+.cyan { background-color: var(--cyan); }
+.trans { background-color: transparent; }
+
+.panels {
+	display: flex;
+	height: 100vh;
+	height: 100dvh;
+}
+
+.panel {
+	display: flex;
+	flex: 0 0 var(--label-w);
+	min-width: var(--label-w);
+	overflow: hidden;
+	transition: flex-grow var(--speed) var(--ease);
+}
+
+.panel.open { flex: 1 1 var(--label-w); }
+
+.label {
+	flex: 0 0 var(--label-w);
+	width: var(--label-w);
+	padding: 15px 0;
+	border: 0;
+	background: none;
+	color: var(--white);
+	cursor: pointer;
+	font: inherit;
+	font-size: var(--tiny);
+	font-weight: bold;
+	line-height: 50px;
+	text-transform: uppercase;
+	text-align: left;
+	white-space: nowrap;
+	writing-mode: vertical-rl; /* rotated 90 degrees, reads from the top */
+	transition: color 0.2s;
+}
+
+.label:hover, .label:focus-visible { color: var(--black); outline: none; }
+.panel.open .label { cursor: default; }
+.panel.open .label:hover { color: var(--white); }
+
+.body {
+	flex: 1;
+	min-width: 0;
+	display: flex;
+	flex-direction: column;
+	overflow-y: auto;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity var(--speed) var(--ease), visibility 0s var(--speed);
+}
+
+.panel.open .body {
+	opacity: 1;
+	visibility: visible;
+	transition: opacity var(--speed) var(--ease) 0.15s, visibility 0s;
+}
+
+/* auto margins center vertically, and stay scrollable when content is taller */
+.center {
+	margin: auto;
+	padding: 15px 0;
+	width: 300px;
+	max-width: 100%;
+}
+
+.links { margin-bottom: 10px; overflow: hidden; }
+.links p {
+	border-bottom: 1px solid var(--line);
+	float: left;
+	padding: 5px 0;
+	width: 50%;
+}
+
+.links p:nth-last-child(-n+2) { border-bottom: 0; }
+
+.logo { height: 30px; }
+.logo svg { display: block; margin: 0 auto; }
+
+
+.product {
+	border-bottom: 1px solid var(--line);
+	overflow: hidden;
+	padding: 10px 0 10px 50px;
+}
+
+.product:last-child { border-bottom: 0; }
+
+.product p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.product svg {
+	box-sizing: content-box;
+	float: left;
+	margin-left: -50px;
+	padding: 8px;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-width: 1.5;
+}
+
+.product svg path {
+	fill: none;
+	stroke: var(--black);
+}
+
+@media (max-width: 700px) {
+	.center { margin: auto 15px auto 0; }
+}
+
+/* tabs: one vertical line of equal-height labels, content beside it */
+@media (max-width: 639px) {
+	.panels {
+		display: grid;
+		grid-template-columns: var(--label-w) 1fr;
+		grid-template-rows: repeat(6, 1fr);
+	}
+
+	.panel { display: contents; }
+
+	.label .extra { display: none; }
+
+	.panel > .label,
+	.panel > .body { background-color: inherit; }
+
+	.label {
+		grid-column: 1;
+		height: 100%;
+		padding: 0;
+		overflow: hidden;
+		text-align: center;
+	}
+
+	.body {
+		grid-column: 2;
+		grid-row: 1 / -1;
+		min-height: 0;
+	}
+
+	.center { margin: auto; padding: 15px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.panel, .body, .label { transition: none; }
+}
+
+@font-face {
+	font-family: "Route 159";
+	font-style: normal;
+	font-weight: normal;
+	src: url(route159/regular.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "Route 159";
+	font-style: normal;
+	font-weight: bold;
+	src: url(route159/bold.woff2) format("woff2");
+}
