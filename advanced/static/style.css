@@ -114,7 +114,7 @@ sup {
 	max-width: 100%;
 }
 
-.links { margin-bottom: 10px; overflow: hidden; }
+.links { overflow: hidden; }
 .links p {
 	border-bottom: 1px solid var(--line);
 	float: left;
@@ -125,6 +125,7 @@ sup {
 .links p:nth-last-child(-n+2) { border-bottom: 0; }
 
 .logo { height: 30px; }
+.label-logo { display: none; }
 .logo svg { display: block; margin: 0 auto; }
 
 
@@ -157,40 +158,54 @@ sup {
 	stroke: var(--black);
 }
 
-@media (max-width: 700px) {
-	.center { margin: auto 15px auto 0; }
-}
-
-/* tabs: one vertical line of equal-height labels, content beside it */
+/* horizontal accordion: height follows the open section's content */
 @media (max-width: 639px) {
 	.panels {
-		display: grid;
-		grid-template-columns: var(--label-w) 1fr;
-		grid-template-rows: repeat(6, 1fr);
+		flex-direction: column;
+		overflow-y: auto;
 	}
 
-	.panel { display: contents; }
+	.panel,
+	.panel.open {
+		display: grid;
+		flex: none;
+		grid-template-rows: var(--label-w) 0fr;
+		min-width: 0;
+		transition: grid-template-rows var(--speed) var(--ease);
+	}
 
-	.center { margin: auto; padding: 0; }
+	.panel.open { grid-template-rows: var(--label-w) 1fr; }
 
-	.label .extra { display: none; }
+	#home > .body { display: none; }
 
-	.panel > .label,
-	.panel > .body { background-color: inherit; }
+	#home > .label {
+		align-items: center;
+		cursor: default;
+		display: flex;
+		position: relative;
+	}
+
+	#home .label-logo {
+		display: block;
+		left: 50%;
+		position: absolute;
+		transform: translateX(-50%);
+	}
 
 	.label {
-		grid-column: 1;
-		height: 100%;
-		padding: 0;
-		overflow: hidden;
-		text-align: center;
+		width: 100%;
+		height: var(--label-w);
+		padding: 0 20px;
+		text-align: left;
+		writing-mode: horizontal-tb;
 	}
 
 	.body {
-		grid-column: 2;
-		grid-row: 1 / -1;
 		min-height: 0;
+		overflow: hidden;
 	}
+
+	.center { margin: 0 auto; padding-bottom: 10px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

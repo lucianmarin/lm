@@ -20,5 +20,5 @@ The site comes in two versions with the same content, in `basic/` and `advanced/
 - vanilla JavaScript, no libraries
 - vertical panels with 90 degree rotated section labels at the top
 - desktop: as many panels open as the horizontal space allows (opened in order on start)
-- mobile (639px and below): labels become equal-height vertical tabs, one panel at a time
+- mobile (639px and below): horizontal accordion, full-width labels stacked, one panel at a time
 - panels open and close with CSS animation

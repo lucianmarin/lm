@@ -8,8 +8,12 @@
     return panels[0].querySelector('.label').offsetWidth;
   }
 
+  function isMobile() {
+    return window.innerWidth <= 639;
+  }
+
   function maxOpen() {
-    if (window.innerWidth <= 700) return 1;
+    if (isMobile()) return 1;
     var free = container.clientWidth - panels.length * labelWidth();
     return Math.max(1, Math.floor(free / PANEL_MIN));
   }
@@ -19,7 +23,38 @@
     panel.querySelector('.label').setAttribute('aria-expanded', open);
   }
 
+  function fill() {
+    var max = maxOpen();
+    panels.forEach(function (panel, idx) {
+      if (isMobile() && idx === 0) return;
+      if (order.length < max && order.indexOf(panel) === -1) {
+        order.push(panel);
+        setOpen(panel, true);
+      }
+    });
+  }
+
+  var wasMobile = isMobile();
+
+  // on mobile the first panel is only a logo handle and never opens
   function trim() {
+    var mobile = isMobile();
+    if (mobile) {
+      var i = order.indexOf(panels[0]);
+      if (i !== -1) order.splice(i, 1);
+      setOpen(panels[0], false);
+      if (!order.length) {
+        order.push(panels[1]);
+        setOpen(panels[1], true);
+      }
+    } else if (wasMobile) {
+      if (order.indexOf(panels[0]) === -1) {
+        order.push(panels[0]);
+        setOpen(panels[0], true);
+      }
+      fill();
+    }
+    wasMobile = mobile;
     var max = maxOpen();
     while (order.length > max) setOpen(order.shift(), false);
   }
@@ -39,16 +74,12 @@
   panels.forEach(function (panel) {
     if (panel.classList.contains('open')) order.push(panel);
     panel.querySelector('.label').addEventListener('click', function () {
+      if (isMobile() && panel === panels[0]) return;
       toggle(panel);
     });
   });
 
   window.addEventListener('resize', trim);
-  panels.forEach(function (panel) {
-    if (order.length < maxOpen() && order.indexOf(panel) === -1) {
-      order.push(panel);
-      setOpen(panel, true);
-    }
-  });
+  fill();
   trim();
 })();
