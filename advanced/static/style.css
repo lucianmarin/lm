@@ -124,7 +124,7 @@ sup {
 
 .links p:nth-last-child(-n+2) { border-bottom: 0; }
 
-.logo { height: 30px; }
+.logo { height: 40px; }
 .label-logo { display: none; }
 .logo svg { display: block; margin: 0 auto; }
 
