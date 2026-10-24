@@ -86,9 +86,8 @@ sup {
 	transition: color 0.2s;
 }
 
-.label:hover, .label:focus-visible { color: var(--black); outline: none; }
-.panel.open .label { cursor: default; }
-.panel.open .label:hover { color: var(--white); }
+.label:focus-visible { outline: none; }
+.panel.open .label { color: var(--black); }
 
 .body {
 	flex: 1;
