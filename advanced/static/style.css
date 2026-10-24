@@ -70,7 +70,7 @@ sup {
 .label {
 	flex: 0 0 var(--label-w);
 	width: var(--label-w);
-	padding: 15px 0;
+	padding: 20px 0;
 	border: 0;
 	background: none;
 	color: var(--white);
@@ -109,7 +109,7 @@ sup {
 /* auto margins center vertically, and stay scrollable when content is taller */
 .center {
 	margin: auto;
-	padding: 15px 0;
+	padding: 0;
 	width: 300px;
 	max-width: 100%;
 }
@@ -171,6 +171,8 @@ sup {
 
 	.panel { display: contents; }
 
+	.center { margin: auto; padding: 0; }
+
 	.label .extra { display: none; }
 
 	.panel > .label,
@@ -189,8 +191,6 @@ sup {
 		grid-row: 1 / -1;
 		min-height: 0;
 	}
-
-	.center { margin: auto; padding: 15px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
