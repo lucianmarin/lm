@@ -36,27 +36,26 @@
 
   var wasMobile = isMobile();
 
-  // on mobile the first panel is only a logo handle and never opens
   function trim() {
+    var max = maxOpen();
+    while (order.length > max) setOpen(order.shift(), false);
+  }
+
+  // on mobile the first panel is only a logo handle and never opens
+  function resize() {
     var mobile = isMobile();
     if (mobile) {
       var i = order.indexOf(panels[0]);
       if (i !== -1) order.splice(i, 1);
       setOpen(panels[0], false);
-      if (!order.length) {
-        order.push(panels[1]);
-        setOpen(panels[1], true);
-      }
-    } else if (wasMobile) {
-      if (order.indexOf(panels[0]) === -1) {
-        order.push(panels[0]);
-        setOpen(panels[0], true);
-      }
-      fill();
+    } else if (wasMobile && order.indexOf(panels[0]) === -1) {
+      order.unshift(panels[0]);
+      setOpen(panels[0], true);
     }
     wasMobile = mobile;
     var max = maxOpen();
-    while (order.length > max) setOpen(order.shift(), false);
+    while (order.length > max) setOpen(order.pop(), false);
+    fill();
   }
 
   function toggle(panel) {
@@ -79,7 +78,6 @@
     });
   });
 
-  window.addEventListener('resize', trim);
-  fill();
-  trim();
+  window.addEventListener('resize', resize);
+  resize();
 })();
