@@ -5,6 +5,7 @@ html {
 	--gray: #808080;
 	--silver: #c0c0c0;
 	--black: #000;
+	--fade: rgba(0, 0, 0, 0.5);
 	--line: rgba(255, 255, 255, 0.2);
 	--orange: #FBB03B;
 	--teal: #00A99D;
@@ -36,10 +37,10 @@ a {
 	transition: color 0.2s;
 }
 
-a:hover { color: var(--gray); }
+a:hover { color: var(--fade); }
 
 sup {
-	color: var(--gray);
+	color: var(--fade);
 	font-size: var(--tiny);
 	line-height: 0;
 	margin-left: 2px;
@@ -117,11 +118,11 @@ sup {
 .links { overflow: hidden; }
 .links p {
 	border-bottom: 1px solid var(--line);
+	color: var(--fade);
 	float: left;
 	padding: 5px 0;
 	width: 50%;
 }
-
 .links p:nth-last-child(-n+2) { border-bottom: 0; }
 
 .logo { height: 40px; }
