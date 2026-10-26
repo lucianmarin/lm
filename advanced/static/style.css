@@ -118,7 +118,6 @@ sup {
 .links { overflow: hidden; }
 .links p {
 	border-bottom: 1px solid var(--line);
-	color: var(--fade);
 	float: left;
 	padding: 5px 0;
 	width: 50%;
@@ -177,16 +176,16 @@ sup {
 
 	.panel.open { grid-template-rows: var(--label-w) 1fr; }
 
-	#home > .body { display: none; }
+	#first > .body { display: none; }
 
-	#home > .label {
+	#first > .label {
 		align-items: center;
 		cursor: default;
 		display: flex;
 		position: relative;
 	}
 
-	#home .label-logo {
+	#first .label-logo {
 		display: block;
 		left: 50%;
 		position: absolute;
