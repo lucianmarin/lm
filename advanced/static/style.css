@@ -6,7 +6,7 @@ html {
 	--silver: #c0c0c0;
 	--black: #000;
 	--fade: rgba(0, 0, 0, 0.5);
-	--line: rgba(255, 255, 255, 0.2);
+	--line: rgba(0, 0, 0, 0.2);
 	--orange: #FBB03B;
 	--teal: #00A99D;
 	--green: #8CC63F;
@@ -125,8 +125,8 @@ sup {
 .links p:nth-last-child(-n+2) { border-bottom: 0; }
 
 .logo { height: 40px; }
-.label-logo { display: none; }
-.logo svg { display: block; margin: 0 auto; }
+.label-logo { cursor: pointer; display: none; }
+.logo svg { cursor: pointer; display: block; margin: 0 auto; }
 
 
 .product {
@@ -206,6 +206,56 @@ sup {
 	}
 
 	.center { margin: 0 auto; padding-bottom: 10px; }
+}
+
+body.bw {
+	--fade: var(--gray);
+	--line: var(--silver);
+	background-color: var(--white);
+	color: var(--black);
+}
+
+body.bw #first { --logo-fill: var(--white); background-color: var(--black); }
+body.bw #first > .label { color: var(--white); }
+body.bw .product svg path { stroke: var(--black); }
+
+body.bw .panel + .panel {
+	background-color: var(--white);
+	border-left: 1px solid var(--black);
+}
+
+body.bw .panel + .panel > .label { color: var(--black); }
+
+@media (prefers-color-scheme: dark) {
+	body.bw {
+		background-color: var(--black);
+		color: var(--white);
+	}
+
+	body.bw a { color: var(--white); }
+	body.bw a:hover { color: var(--fade); }
+	body.bw .product svg path { stroke: var(--white); }
+
+	body.bw #first { --logo-fill: var(--black); background-color: var(--white); }
+	body.bw #first > .label { color: var(--black); }
+
+	body.bw .panel + .panel {
+		background-color: var(--black);
+		border-left-color: var(--white);
+	}
+
+	body.bw .panel + .panel > .label { color: var(--white); }
+}
+
+@media (max-width: 639px) {
+	body.bw .panel + .panel {
+		border-left: 0;
+		border-top: 1px solid var(--black);
+	}
+}
+
+@media (max-width: 639px) and (prefers-color-scheme: dark) {
+	body.bw .panel + .panel { border-top-color: var(--white); }
 }
 
 @media (prefers-reduced-motion: reduce) {
