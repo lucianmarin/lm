@@ -153,7 +153,7 @@ sup {
 	stroke-width: 1.5;
 }
 
-.product svg path {
+.product svg * {
 	fill: none;
 	stroke: var(--black);
 }
@@ -217,7 +217,7 @@ body.bw {
 
 body.bw #first { --logo-fill: var(--white); background-color: var(--black); }
 body.bw #first > .label { color: var(--white); }
-body.bw .product svg path { stroke: var(--black); }
+body.bw .product svg * { stroke: var(--black); }
 
 body.bw .panel + .panel {
 	background-color: var(--white);
@@ -234,7 +234,7 @@ body.bw .panel + .panel > .label { color: var(--black); }
 
 	body.bw a { color: var(--white); }
 	body.bw a:hover { color: var(--fade); }
-	body.bw .product svg path { stroke: var(--white); }
+	body.bw .product svg * { stroke: var(--white); }
 
 	body.bw #first { --logo-fill: var(--black); background-color: var(--white); }
 	body.bw #first > .label { color: var(--black); }
