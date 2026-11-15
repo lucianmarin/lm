@@ -166,6 +166,13 @@ sup {
 	stroke: var(--black);
 }
 
+.category {
+	color: var(--gray);
+	font-size: var(--tiny);
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
 /* Mobile layout: horizontal accordion, full-width stacked labels. */
 /* horizontal accordion: height follows the open section's content */
 @media (max-width: 639px) {
