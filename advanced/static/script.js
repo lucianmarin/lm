@@ -119,6 +119,6 @@
 		document.body.classList.toggle('bw');
 	}
 
-	document.querySelector('#first .logo svg').addEventListener('click', toggleTheme);
-	document.querySelector('#first .label-logo').addEventListener('click', toggleTheme);
+	firstPanel.querySelector('.logo svg').addEventListener('click', toggleTheme);
+	firstPanel.querySelector('.label-logo').addEventListener('click', toggleTheme);
 })();

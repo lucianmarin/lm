@@ -50,12 +50,12 @@ sup {
 	margin-left: 2px;
 }
 
-/* Panel backgrounds are keyed to their section ids. */
-#teal { background-color: var(--teal); }
-#green { background-color: var(--green); }
-#orange { background-color: var(--orange); }
-#cyan { background-color: var(--cyan); }
-#first, #last { background-color: transparent; }
+/* Panel background colors. */
+.teal { background-color: var(--teal); }
+.green { background-color: var(--green); }
+.orange { background-color: var(--orange); }
+.cyan { background-color: var(--cyan); }
+.silver { background-color: var(--silver); }
 
 /* Main panels layout. */
 .panels {
@@ -192,16 +192,16 @@ sup {
 
 	.panel.open { grid-template-rows: var(--label-w) 1fr; }
 
-	#first > .body { display: none; }
+	.panel:first-child > .body { display: none; }
 
-	#first > .label {
+	.panel:first-child > .label {
 		align-items: center;
 		cursor: default;
 		display: flex;
 		position: relative;
 	}
 
-	#first .label-logo {
+	.panel:first-child .label-logo {
 		display: block;
 		left: 50%;
 		position: absolute;
@@ -232,8 +232,8 @@ body.bw {
 	color: var(--black);
 }
 
-body.bw #first { --logo-fill: var(--white); background-color: var(--black); }
-body.bw #first > .label { color: var(--white); }
+body.bw .panel:first-child { --logo-fill: var(--white); background-color: var(--black); }
+body.bw .panel:first-child > .label { color: var(--white); }
 body.bw .product svg * { stroke: var(--black); }
 
 body.bw .panel + .panel {
@@ -253,8 +253,8 @@ body.bw .panel + .panel > .label { color: var(--black); }
 	body.bw a:hover { color: var(--fade); }
 	body.bw .product svg * { stroke: var(--white); }
 
-	body.bw #first { --logo-fill: var(--black); background-color: var(--white); }
-	body.bw #first > .label { color: var(--black); }
+	body.bw .panel:first-child { --logo-fill: var(--black); background-color: var(--white); }
+	body.bw .panel:first-child > .label { color: var(--black); }
 
 	body.bw .panel + .panel {
 		background-color: var(--black);
