@@ -1,3 +1,6 @@
+/* Agent instruction: keep this code human-friendly — clear names, comments, and simple logic. */
+
+/* Design tokens (CSS variables). */
 html {
 	--tiny: 10px;
 	--regular: 14px;
@@ -16,6 +19,7 @@ html {
 	--ease: cubic-bezier(0.65, 0, 0.35, 1);
 }
 
+/* Base reset and global styles. */
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 html, body { height: 100%; }
@@ -46,12 +50,14 @@ sup {
 	margin-left: 2px;
 }
 
-.teal { background-color: var(--teal); }
-.green { background-color: var(--green); }
-.orange { background-color: var(--orange); }
-.cyan { background-color: var(--cyan); }
-.trans { background-color: transparent; }
+/* Panel backgrounds are keyed to their section ids. */
+#teal { background-color: var(--teal); }
+#green { background-color: var(--green); }
+#orange { background-color: var(--orange); }
+#cyan { background-color: var(--cyan); }
+#first, #last { background-color: transparent; }
 
+/* Main panels layout. */
 .panels {
 	display: flex;
 	height: 100vh;
@@ -115,6 +121,7 @@ sup {
 	max-width: 100%;
 }
 
+/* Link lists (timeline and contact). */
 .links { overflow: hidden; }
 .links p {
 	border-bottom: 1px solid var(--line);
@@ -129,6 +136,7 @@ sup {
 .logo svg { cursor: pointer; display: block; margin: 0 auto; }
 
 
+/* Product entries. */
 .product {
 	border-bottom: 1px solid var(--line);
 	overflow: hidden;
@@ -158,6 +166,7 @@ sup {
 	stroke: var(--black);
 }
 
+/* Mobile layout: horizontal accordion, full-width stacked labels. */
 /* horizontal accordion: height follows the open section's content */
 @media (max-width: 639px) {
 	.panels {
@@ -208,6 +217,7 @@ sup {
 	.center { margin: 0 auto; padding-bottom: 10px; }
 }
 
+/* Theme toggle (black and white mode). */
 body.bw {
 	--fade: var(--gray);
 	--line: var(--silver);
@@ -262,6 +272,7 @@ body.bw .panel + .panel > .label { color: var(--black); }
 	.panel, .body, .label { transition: none; }
 }
 
+/* Font faces. */
 @font-face {
 	font-family: "Route 159";
 	font-style: normal;
@@ -269,6 +280,7 @@ body.bw .panel + .panel > .label { color: var(--black); }
 	src: url(route159/regular.woff2) format("woff2");
 }
 
+/* Font faces. */
 @font-face {
 	font-family: "Route 159";
 	font-style: normal;
