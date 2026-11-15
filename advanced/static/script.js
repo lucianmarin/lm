@@ -1,88 +1,121 @@
+// Agent instruction: keep this code human-friendly — clear names, comments, and simple logic.
 (function () {
-  var container = document.getElementById('panels');
-  var panels = Array.prototype.slice.call(container.querySelectorAll('.panel'));
-  var PANEL_MIN = 340; // minimum width of an open panel's content
-  var order = []; // open panels, oldest first
+  'use strict';
 
+  // Breakpoint (in px) below which the accordion stacks vertically.
+  const MOBILE_BREAKPOINT = 639;
+  // Minimum width (in px) needed to show an open panel's content.
+  const PANEL_MIN_WIDTH = 340;
+
+  const container = document.getElementById('panels');
+  const panels = Array.from(container.querySelectorAll('.panel'));
+  const firstPanel = panels[0];
+
+  // Open panels in the order they were opened (oldest first).
+  const openPanels = [];
+
+  // Width taken up by one collapsed panel's label.
   function labelWidth() {
-    return panels[0].querySelector('.label').offsetWidth;
+    return firstPanel.querySelector('.label').offsetWidth;
   }
 
   function isMobile() {
-    return window.innerWidth <= 639;
+    return window.innerWidth <= MOBILE_BREAKPOINT;
   }
 
-  function maxOpen() {
+  // How many panels can be open at once for the current viewport.
+  function maxOpenPanels() {
     if (isMobile()) return 1;
-    var free = container.clientWidth - panels.length * labelWidth();
-    return Math.max(1, Math.floor(free / PANEL_MIN));
+    const freeSpace = container.clientWidth - panels.length * labelWidth();
+    return Math.max(1, Math.floor(freeSpace / PANEL_MIN_WIDTH));
   }
 
+  // Toggle a panel's open/closed state and keep its aria-expanded in sync.
   function setOpen(panel, open) {
     panel.classList.toggle('open', open);
-    panel.querySelector('.label').setAttribute('aria-expanded', open);
+    panel.querySelector('.label').setAttribute('aria-expanded', String(open));
   }
 
-  function fill() {
-    var max = maxOpen();
-    panels.forEach(function (panel, idx) {
-      if (isMobile() && idx === 0) return;
-      if (order.length < max && order.indexOf(panel) === -1) {
-        order.push(panel);
+  // Open as many not-yet-open panels as the viewport allows.
+  function fillOpenPanels() {
+    const max = maxOpenPanels();
+    panels.forEach(function (panel, index) {
+      // On mobile the first panel is only a logo handle and never opens.
+      if (isMobile() && index === 0) return;
+      if (openPanels.length < max && !openPanels.includes(panel)) {
+        openPanels.push(panel);
         setOpen(panel, true);
       }
     });
   }
 
-  var wasMobile = isMobile();
+  let wasMobile = isMobile();
 
-  function trim() {
-    var max = maxOpen();
-    while (order.length > max) setOpen(order.shift(), false);
-  }
-
-  // on mobile the first panel is only a logo handle and never opens
-  function resize() {
-    var mobile = isMobile();
-    if (mobile) {
-      var i = order.indexOf(panels[0]);
-      if (i !== -1) order.splice(i, 1);
-      setOpen(panels[0], false);
-    } else if (wasMobile && order.indexOf(panels[0]) === -1) {
-      order.unshift(panels[0]);
-      setOpen(panels[0], true);
+  // Close the oldest panels until we are within the allowed count.
+  function trimOpenPanels() {
+    const max = maxOpenPanels();
+    while (openPanels.length > max) {
+      setOpen(openPanels.shift(), false);
     }
-    wasMobile = mobile;
-    var max = maxOpen();
-    while (order.length > max) setOpen(order.pop(), false);
-    fill();
   }
 
+  // React to viewport changes, keeping the open set valid.
+  function handleResize() {
+    const mobile = isMobile();
+
+    if (mobile) {
+      // The first panel can't be open on mobile.
+      const firstIndex = openPanels.indexOf(firstPanel);
+      if (firstIndex !== -1) openPanels.splice(firstIndex, 1);
+      setOpen(firstPanel, false);
+    } else if (wasMobile && !openPanels.includes(firstPanel)) {
+      // Returning to desktop re-opens the first panel.
+      openPanels.unshift(firstPanel);
+      setOpen(firstPanel, true);
+    }
+
+    wasMobile = mobile;
+
+    // If the viewport shrank, drop the most recently opened panels.
+    const max = maxOpenPanels();
+    while (openPanels.length > max) {
+      setOpen(openPanels.pop(), false);
+    }
+
+    fillOpenPanels();
+  }
+
+  // Open or close a single panel in response to a click.
   function toggle(panel) {
-    var i = order.indexOf(panel);
-    if (i === -1) {
-      order.push(panel);
+    const index = openPanels.indexOf(panel);
+    if (index === -1) {
+      openPanels.push(panel);
       setOpen(panel, true);
-      trim();
-    } else if (order.length > 1) {
-      order.splice(i, 1);
+      trimOpenPanels();
+    } else if (openPanels.length > 1) {
+      // Keep at least one panel open at all times.
+      openPanels.splice(index, 1);
       setOpen(panel, false);
     }
   }
 
+  // Set up initial state and click handlers.
   panels.forEach(function (panel) {
-    if (panel.classList.contains('open')) order.push(panel);
-    panel.querySelector('.label').addEventListener('click', function () {
-      if (isMobile() && panel === panels[0]) return;
+    if (panel.classList.contains('open')) openPanels.push(panel);
+
+    const label = panel.querySelector('.label');
+    label.addEventListener('click', function () {
+      if (isMobile() && panel === firstPanel) return;
       toggle(panel);
     });
   });
 
-  window.addEventListener('resize', resize);
-  resize();
+  window.addEventListener('resize', handleResize);
+  handleResize();
 
-  function toggleTheme(e) {
-    e.stopPropagation();
+  // Toggle the black-and-white theme without triggering panel toggles.
+  function toggleTheme(event) {
+    event.stopPropagation();
     document.body.classList.toggle('bw');
   }
 
